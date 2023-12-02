@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .navbar-nav > li{
+      padding-left:20px;
+      padding-right:20px;
+    }
+    
+    .navbar-brand{
+      padding-left:25px;
+      padding-right:0px;
+    }
+    *{
+        margin :0;
+        padding: 0;
+        font-family: "Source serif Pro";
+    }
+    .jumbotron
+    {
+        background-image: url("C:\Users\Lenovo\OneDrive\Desktop\abc.jpeg");
+        height: 80vh;
+        background-size: cover;
+        background-position:center;
+        color: white;
+        border-radius: 0px!important;
+
+    }
+
+    .img
+{
+  overflow: hidden;
+}
+
+    .jumbotron h1
+    {
+        margin: 30px 0;
+        font-size: 30px;
+        line-height: 1.5;
+
+    }
+    .intro
+    {
+        padding-top: 60px;
+    }
+.card
+{
+    padding :1.5em .5em .5em;
+    text-align: center;
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+
+}
+
+
+
+.abc img{
+  transition: all 1.07s ;
+}
+.abc:hover img
+{
+  transform :scale(1.07);
+}
+
+.counter-up
+{
+  background: red;
+  min-height: 50vh;
+
+  display: flex;
+  align-items:center;
+
+}
+
+.counter-up .content
+{
+  display :flex;
+  border: rgba(255, 255, 255, 0.6);
+  width :100%;
+  height:100%;
+  align-items: center;
+  justify-content:space-between;
+  background: url("https://www.shutterstock.com/shutterstock/videos/21485134/thumb/1.jpg?ip=x480") no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.counter-up::before{
+  position :absolute;
+  content:"";
+  top: 0;
+  left:0 ;
+  height: 100%;
+  width: 100%;
+
+  flex-wrap: wrap;
+
+}
+
+.content .box
+{
+width: calc(10% -30px);
+border: 1px dashed white;
+border-radius: 5px;
+padding: 20px;
+display: flex;
+justify-content:space-evenly;
+color: white;
+flex-direction: column;
+padding-right: 10px;
+padding-left: 10px;
+margin-left: 30px;
+margin-right: 30px;
+
+
+
+}
+
+.content .box .icon
+{
+  font-size: 25px;
+  color: white;
+}
+
+.content .box .counter-up{
+  font-size: 50px;
+  color: #f2f2f2;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.content .box .text 
+{
+  color: #ccc;
+  font-weight: 400;
+
+}
+
+@media (max-width:1036px)
+{
+  .content-up
+  {
+    padding: 50px 50px 0 50px;
+  }
+  .content.box{
+    width:calc(50%-30px);
+    margin-bottom:50px;
+  }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.counters {
+    height: 25vh;
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+
+.counters div {
+    text-align: center;
+    padding: 20px;
+}
+
+.counter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* p,h1,h2,h3,h4,h5
+{
+  color: white;
+} */
+/* Add any other styles you need */
+.triangle_1 {
+    width: 50%;
+    height: 200px;
+    background: linear-gradient(to bottom left, #fff 0%, #fff 50%, orange 50%, orange 100%);
+}
+
+.triangle_2 {
+    width: 50%; /* Added colon here */
+    height: 200px;
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%,orange 50%,orange 100%);
+}
+
+.xyz
+{
+  margin: 0;
+  padding: 0;
+}
+
+  /* Button Styles */
+  button {
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: darkorange;
+    color: white;
+  }
+
+  /* Title Styles */
+  h2, h3 {
+    color: #333; /* Change to your preferred title color */
+  }
+
+  /* Paragraph Styles */
+  p {
+    color: #555; /* Change to your preferred paragraph color */
+    font-size: 16px;
+  }
+  .footer,.man_thing,.sixcards {
+  width:100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.counter{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 200px;
+    padding: 0 0 45px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.counter:before,
+.counter:after{
+    content: '';
+    background-color: #05BCC0;
+    height: calc(100% - 120px);
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    z-index: -1;
+}
+.counter:after{
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    transform: translateX(-50%) rotate(45deg);
+    bottom: 6px;
+    left: 50%;
+}
+.counter .counter-value{
+    color: #05BCC0;
+    background: linear-gradient(#f9f9f9 50%,#f2f2f2 50%);
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 200px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    box-shadow: 0 -5px 0 rgba(255,255,255,0.8),0 10px 10px rgba(0, 0, 0, 0.3);
+    display: block;
+}
+.counter h3{
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0 10px;
+}
+.counter.red:before,
+.counter.red:after{
+    background-color: #F9605A;
+}
+.counter.red .counter-value{ color: #F9605A; }
+@media screen and (max-width:990px){
+    .counter{ margin-bottom: 40px; }
+}
+
+.counter.green:before,
+.counter.green:after{
+    background-color: rgb(128, 228, 131);
+}
+.counter.red .counter-value{ color: rgb(128, 228, 131); }
+@media screen and (max-width:990px){
+    .counter{ margin-bottom: 40px; }
+}
+.counter.red:before,
+.counter.red:after{
+    background-color:#e7ea27;
+}
+.counter.yellow .counter-value{ color:  #e7ea27; }
+@media screen and (max-width:990px){
+    .counter{ margin-bottom: 40px; }
+}   
+.counter.yellow .counter-value{ color: #e7ea27; }
+@media screen and (max-width:990px){
+    .counter{ margin-bottom: 40px; }
+}
+.counter.orange:before,
+.counter.orange:after{
+    background-color: #eead21;
+}
+.counter.orange .counter-value{ color:  #eead21; }
+@media screen and (max-width:990px){
+    .counter{ margin-bottom: 40px; }
+}   
+    
+    
+    
+    
+     </style> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head><script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top box-shadow">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">IT Services</a></li>
+                  <li><a class="dropdown-item" href="#">Repair Services</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sales
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">New Sales</a></li>
+                  <li><a class="dropdown-item" href="#">Refurbuished Laptops</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Clients</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">T & C</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex d-none d-md-block d-sm-none">
+                 
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+      </button>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- offcanvas -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Logo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+          <div>
+            <h1>LOGO</h1>
+            <hr>
+            <h2>Nishi Graphics</h2>
+            <br>
+            <br>
+<p>#69, 2nd main road,<br> Tech City Layout, Electronic City <br>
+    , Phase I, Bangalore - 560100</p>
+
+    <br>
+    <br>
+    <h2>Phone Number</h2>
+    <br>
+    <p>080 - 2852 1102 <br>
+        +91 99020 02788, 78999 34125</p>
+
+    <br>
+    <br>
+    <h2>Email :</h2>
+    <br>
+    <p>info@wereachindia.com</p>
+
+
+          </div>
+                             </div>
+     
+
+          </div>
+        </div>
+      </div>
+      <!-- Jumbotron -->
+      <div class=" jumbotron jumbotron-fluid text-center  w-100 justify-content-center "style="background:#333;height:60vh;">
+        <div class="container-fluid">
+          <div class="intro container-fluid justify-content">
+            <img src="C:\Users\Lenovo\OneDrive\Desktop\abc.jpeg" alt="">
+            
+     
+
+
+        <h1>Best Laptops and Computer Repair Service</h1>
+        <br>
+        <button class="btn btn-primary bg-dark ">View Search</button>
+        <!-- <h3>Wereach is premium computer repair service provider Offering High quality <br>and Cost Effective laptop and computer repair services and network solutions </h3> -->
+
+        
+        
+        </div>
+      </div>
+
+        </div>
+        
+      <div class="container-fluid pt-5" style="background-color: rgb(245, 243, 242);"></div>
+      
+      <div class="request_fourcards" style="background-color: rgb(239, 237, 235);">
+        <div class="card container  col-md-6 col-sm-6 content-justify-center">
+          <div class="card-body ">
+            <h2 class="card-title content-justify-center">Request a Service Repair</h2>
+            <h4 class="content-justify-center"> We offer sales & Serices</h4>
+            <br>
+            <div class="container">
+              <form action="index2.html" class="container">
+               
+  
+                  <div class="row justify-content-center">
+                    <div class="col-md-4  mb-2">
+                      <input class="form-control"   input="text" required placeholder="Your Name">
+                    </div>
+                    <div class="col-md-4  mb-2 ">
+                      <input type="tel" class="form-control" required placeholder="Phone Number">
+                    </div>
+                    <div class="col-md-4  mb-2">
+                      <input type="submit" class="form-control" class="btn btn-primary">
+  
+                    </div>
+  
+  
+  
+  
+  
+  
+                  </div>
+  
+                  <!-- <form action="index2.html" class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-md-4 mb-2">
+                        <input class="form-control" type="text" placeholder="Your Name" required>
+                      </div>
+                      <div class="col-md-4 mb-2">
+                        <input class="form-control" type="tel" placeholder="Phone number" required>
+                      </div>
+                      <div class="col-md-4 mb-2">
+                        <input type="submit" class="btn btn-primary form-control" value="Submit">
+                      </div>
+                    </div>
+                  </form> -->
+                  
+  
+  
+  
+  
+  
+  
+  
+                </form>
+              
+                                    
+                      </div>
+              
+              
+            </div>
+            
+            
+        </div>
+
+              <div class="contianer" >
+                <div class="container col-md-10 col-sm-10 pt-5 pb-3 g-4">
+                  <div class="row row-cols-1 row-cols-sm-5 row-cols-md-10 g-4 mx-auto justify-content-center  " >
+                    <div class="col-md-3 col-sm-10">
+                      <div class="card" style="border-radius: 10px;" >
+                      <img src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"style="font-size: x-large;"><b>Skilled Technician</b></h5>
+                          <p class="card-text" style="font-size: x-large;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, unde!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-10">
+                      <div class="card" style="border-radius: 10px;">
+                        <img src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"style="font-size: x-large;"><b>Customer Support</b></h5>
+                          <p class="card-text"style="font-size: x-large;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, unde!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-10">
+                      <div class="card" style="border-radius: 10px;" >
+                        <img src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"style="font-size: x-large;"><b>Customer Support</b></h5>
+                          <p class="card-text"style="font-size: x-large;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, unde!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 col-sm-10">
+                      <div class="card" style="border-radius: 10px;">
+                        <img src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"style="font-size: x-large;"><b>Pleasure Experience</b></h5>
+                          <p class="card-text"style="font-size: x-large;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, unde!</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+  
+
+      </div>
+
+
+            
+
+<div class="sixcards">
+  <div class="container-fluid" style="background-color: rgb(225, 233, 236);">
+    <div class="container justify-content-center pt-3 pb-2">
+      <h1><b>Our Services</b></h1>
+    </div>
+    <div class="container justify-content-center pb-3" style="font-size: large;">
+      <h3>
+        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: x-large;">WeReach Infotech is a premium laptop repair shop that excels in providing</p>
+        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: x-large;">excellent budget-friendly options. It offers affordable and high-quality alternatives for</p>
+        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: x-large;">computer service centers and laptop repair shops.</p>
+      </h3>
+    </div>
+    <div class="container pt-5 pb-3">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-md-4">
+          <div class="card bg-image hover-zoom abc border-box" style="background-color: rgb(172, 218, 235);border-radius: 10px;overflow: hidden;">
+            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/Sales-Image-2.jpg" alt="Sales"></div>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Sales</b></h5>
+              <p class="card-text" style="text-align: left;font-size: x-large;">We maintain the highest standards of credibility and efficiency with every computer repair service we provide in an effort to deliver perfection.</p>
+              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-image hover-zoom abc border-box" style="background-color:rgb(172, 218, 235);border-radius: 10px;border-radius: 10px;">
+           <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Repairing-Services-Image-2.jpg" alt="Repair Services"></div> 
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: left;font-size: x-large;"> <b>Repair Services</b></h5>
+              <p class="card-text" style="text-align: left;font-size: x-large;">We establish a set of processes outlining best practices, optimizing IT services in our computer service center to surpass business standards.</p>
+              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-image hover-zoom abc border-box" style="background-color: rgb(172, 218, 235);border-radius: 10px;font-size: x-large;">
+          <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Upgrades_Options.jpg" alt="Upgrades and Options"></div>  
+            <div class="card-body" style="font-size: x-large;">
+              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Upgrades and Options</b></h5>
+              <p class="card-text" style="text-align: left;font-size: x-large;">We provide a variety of hardware upgrades as well as repurchase alternatives as part of our computer repair services.</p>
+              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="b container-fluid" style="background-color: rgb(225, 233, 236);font-size: x-large;">
+    <div class="container pt-5 pb-3">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col-md-4">
+          <div class="card bg-image hover-zoom abc border-box" style="background-color: rgb(172, 218, 235);border-radius: 10px;font-size: x-large;">
+            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/AMC-Image-2.jpg" alt="Sales"></div>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>AMC</b></h5>
+              <p class="card-text" style="text-align: left;font-size: x-large;">Our laptop repair shop strongly focuses on quality, dependability, and efficiency.
+
+              </p>
+              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-image hover-zoom abc border-box" style="background-color: rgb(172, 218, 235);border-radius: 10px;font-size: x-large;">
+            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" alt="Repair Services"></div>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Rentals</b></h5>
+              <p class="card-text" style="text-align: left;font-size: x-large;">We provide excellent laptop cleaning services and are committed to providing the best computer rental services.</p>
+              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-image hover-zoom abc border-box" style="background-color: rgb(172, 218, 235);border-radius: 10px;font-size: x-large;">
+           <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Facility-Management-Images-2.jpg" alt="Upgrades and Options"></div> 
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Facility Management</b></h5>
+              <p class="card-text" style="text-align: left;font-size: x-large;">This special pack of services has been designed for our existing Facility Management Services.</p>
+              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+ 
+
+
+
+  
+
+
+  
+  
+  
+
+
+
+
+
+
+</div>
+      <!-- section with 6 cards -->
+      
+
+      
+  <!-- now that man thing -->
+<!-- 
+  <div class="container-fluid w-100 pt-5 pb-3 g-4" style="height: 55%;">
+    <div class="container " style="display: flex; justify-content: space-evenly;">
+      <div class="container" style="display: flex; justify-content: space-evenly;"></div>
+      <div class="col-md-12 col-sm-12  gx-2 w-80" >
+        <img class="bg-image hover-zoom col-md-12 col-md-6 col-sm-12 "   style=" width: 90vg; height: 80vh;float:left; " src="https://wereachindia.com/wp-content/uploads/2023/10/quote-image-909x1024.webp" alt="">
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="container pt-5"></div>
+        <div class="container pt-5"></div>
+        <div class="container pt-3"></div>
+        <h3 style="text-align: left;color: orange;">Our Company</h3>
+        <br>
+        <h2>Let's know More about Us</h2>
+        <br>
+        
+        <p style="text-align: left;">
+          WeReach Infotech is an information technology hardware solution <br> company established in the year 2004 Bangalore, India. Offering high <br>quality and cost-effective laptop & computer repair services  and <br> network solutions. We support a wide range of businesses in many <br>industries and verticals, leverage our experience to keep everything <br> running smoothly so your business can focus on what it does <br> WeReach Infotech specialises in delivering a wide range of IT <br> solutions to our clients. Our team embodies a diverse range of <br> talents and technical skills that can devise a solution <br>that best fits your business requirements.
+        </p>
+        <br>
+        <button style="background-color: goldenrod; color: black;">Read More</button>
+
+
+
+      </div>
+      
+
+      </div>
+    </div> -->
+  <div class="man_thing">
+    <div class=" container w-100 pt-5 pb-3 g-4 content-justify-center" style="height: 55%;">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 col-sm-12 container">
+          <img style="height: 80vh; float: left;" src="https://wereachindia.com/wp-content/uploads/2023/10/quote-image-909x1024.webp" alt="">
+        </div>
+        <div class="col-md-6 col-sm-12 justify-content-center ">
+          <div class="container pt-5"></div>
+          <div class="container pt-3"></div>
+          <div class="container-fluid align-items-center my-1 col-12  py-3">
+            <div class="container my-1 col-12  align-items-center  "><h3 style= "color: orange;font-size: xx-large;">Our Company</h3></div>
+                <div class="container my-1 col-12 align-items-center px-5  py-3"><h2 style="font-size: xx-large;">Let's know More about Us</h2></div>
+          
+        
+          
+          <div class="container-fluid my-1 col-12   align-items-center"><p style="text-align: left; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: xx-large;">
+            WeReach Infotech is an information technology hardware solution  company established in the year 2004 Bangalore, India. Offering high quality and cost-effective laptop & computer repair services  and  network solutions. We support a wide range of businesses in many industries and verticals, leverage our experience to keep everything  running smoothly so your business can focus on what it does  WeReach Infotech specialises in delivering a wide range of IT  solutions to our clients. Our team embodies a diverse range of  talents and technical skills that can devise a solution that best fits your business requirements.
+          </p>
+          </div>
+          
+          <div class="container my-1 col-12   align-items-center"><button style="background-color: goldenrod; color: black;">Read More</button></div>
+
+          </div>
+                  </div>
+      </div>
+    </div>
+    
+        
+  
+  
+  
+  <!-- animation wala part -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.counter-value').each(function(){
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        },{
+            duration: 3500,
+            easing: 'swing',
+            step: function (now){
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+});
+</script>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <!-- Adjusted column widths for large and medium screens -->
+      <div class="counter orange">
+        <span class="counter-value">650</span>
+        <h3>Satisfed Clients</h3>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="counter yellow">
+        <span class="counter-value">120</span>
+        <h3>Active Projects</h3>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="counter green" >
+        <span class="counter-value">90</span>
+        <h3>Winning Awards</h3>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="counter blue">
+        <span class="counter-value">100</span>
+        <h3>Expert Teams </h3>
+      </div>
+    </div>
+  </div>
+</div>
+    
+  
+
+
+  <div class="pt-5"></div>
+  <div class="pt-5"></div>
+  <div class="cards_work">
+    <div class="container-fluid bg-white py-5">
+      <div class="container">
+        <div class="row no-gutters justify-content-around">
+          <div class="card col-md-3 col-sm-12 mb-4 mx-3 px-3 bg-image hover-zoom" style="border: 1px solid gold; border-radius: 10px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Repair Services</h5>
+              <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ad amet exercitationem quae quaerat repellendus corporis aspernatur quam ea commodi?</p>
+              <p class="text-center">Robert Fox</p>
+            </div>
+          </div>
+          <div class="card col-md-3 col-sm-12 mb-4 mx-3 px-3 bg-image hover-zoom" style="border: 1px solid gold; border-radius: 10px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Repair Services</h5>
+              <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ad amet exercitationem quae quaerat repellendus corporis aspernatur quam ea commodi?</p>
+              <p class="text-center">Robert Fox</p>
+            </div>
+          </div>
+          <div class="card col-md-3 col-sm-12 mb-4 mx-3 px-3 bg-image hover-zoom" style="border: 1px solid gold; border-radius: 10px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Upgrades and Options</h5>
+              <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laborum perferendis qui commodi a distinctio reiciendis fugiat aliquid ex praesentium?</p>
+              <p class="text-center">Robert Fox</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  
+    
+    
+  
+  
+   
+  <div class="pt-5"></div>
+  <div class="pt-5"></div>
+
+  
+<!-- container for lets work together  -->
+<div class="container-fluid content-justify-center" style="background-color: rgb(250, 189, 36);">
+
+   <div class="container col-12 py-2 content-justify-center pt-5"><h2>Let's Work Together</h2></div>
+   <div class="container col-12 py-1 content-justify-center"> <h1>Get Your Device Fixed in 24 Hours</h1> </div>
+   <div class="container col-12 content-justify-center pb-3">
+    <button class="btn btn-primary rounded ">Book A Service</button>
+   </div>
+
+      </div>
+
+  
+</div>
+
+<div class="pt-5"></div>
+<div class="pt-5"></div>
+      <!-- slider code -->
+
+
+
+      <!-- footer -->
+      <!-- Footer -->
+<div class="footer">
+  <div class="container-fluid pt-5"></div>
+  <div class="container-fluid pt-5"></div>
+  
+  <div class="container-fluid pt-5"></div>
+  <div class="container-fluid pt-5"></div>
+
+  <div class="container-fluid   xyz" style="background-color: orange;">
+
+    <div class="triangle" style="display:flex;justify_content:flex-end;">
+      <div class="triangle_1">
+      
+          </div>
+          <div class="triangle_2">
+      
+          </div>
+          </div>
+
+  </div>
+
+
+
+<footer class="text-center text-lg-start bg-body-tertiary text-muted " style="background-color: orange;">
+<!-- Section: Social media -->
+<!-- Section: Social media -->
+
+<!-- Section: Links  -->
+<section class="" style="background-color: orange;">
+<div class="container text-center text-md-start " style="background-color: orange;">
+  <!-- Grid row -->
+  <div class="row mt-3" style="background-color: orange;">
+    <!-- Grid column -->
+    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="background-color: orange;">
+      <!-- Content -->
+      <h6 class="text-uppercase fw-bold mb-4" style="background-color: orange;">
+        <i class="fas fa-gem me-3"></i>WeReach
+      </h6>
+      <p>
+        WeReach Infotech specialises in delivering a 
+         wide range of IT solutions to our clients.
+
+
+      </p>
+      <div>
+        <!-- Facebook -->
+        
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        </a>
+
+<!-- Pinterest -->
+                  </div>
+  
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" style="background-color: orange;">
+      <!-- Links -->
+      <h6 class="text-uppercase fw-bold mb-4">
+        Our Company
+      </h6>
+      <p>
+        <a href="aboutus.php" class="text-reset">About us</a>
+      </p>
+      <p>
+        <a href="client.php" class="text-reset">Client</a>
+      </p>
+      <p>
+        <a href="T & C.php" class="text-reset">T & C</a>
+      </p>
+      <p>
+        <a href="Contactus.php" class="text-reset">Contact Us</a>
+      </p>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" style="background-color: orange;">
+      <!-- Links -->
+      <h6 class="text-uppercase fw-bold mb-4">
+        Useful links
+      </h6>
+      <p>
+        <a href="ITservices.php" class="text-reset">IT services</a>
+      </p>
+      <p>
+        <a href="Repairservices.php" class="text-reset">Repair Services</a>
+      </p>
+      <p>
+        <a href="Newsales.php" class="text-reset">New sales</a>
+      </p>
+      <p>
+        <a href="Refurbishedlaptops.php" class="text-reset">Refurbished Lpatops</a>
+      </p>
+    </div>
+    <!-- Grid column -->
+
+    <!-- Grid column -->
+    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 " style="background-color: orange;">
+      <!-- Links -->
+      <h6 class="text-uppercase fw-bold mb-4"> <h3>Keep in touch</h3></h6>
+      <p> <br>Our expertise, well as our passion for IT Solutions,<br> sets us apart from other agencies.
+
+      </p>
+      <p>
+        <div class="email " style="display: flex; justify-content: space-evenly;"><div class="email-act" style="border: white;"><input type="email" name="" id="" placeholder="Email Address Here " ></div> <div class="button"><button class="btn  btn-primary"><i class="fa-solid fa-paper-plane"></i></button></div></div>
+      
+      </p>
+
+    </div>
+    <!-- Grid column -->
+  </div>
+  <!-- Grid row -->
+</div>
+</section>
+<!-- Section: Links  -->
+
+<!-- Copyright -->
+<div class="text-center p-4" style="background-color: orange;">
+© 2023 Copyright:
+<a class="text-reset fw-bold" href="">WeReachIndia @ 2023.All Rights Reserved.</a>
+</div>
+<!-- Copyright -->
+</footer>
+
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js">
+  $(document).ready(function(){
+    $('.counter-value').each(function(){
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        },{
+            duration: 3500,
+            easing: 'swing',
+            step: function (now){
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+});
+</script>
+ 
+
+      
+  
+  <script>
+    const counters = document.querySelectorAll('.counter');
+const speed = 200; // The lower the slower
+
+// Function to check if an element is in the viewport
+const isInViewport = (element) => {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+};
+
+// Function to update the count for a specific counter
+const updateCount = (counter) => {
+    const target = +counter.getAttribute('data-target');
+    const count = +counter.innerText;
+    const inc = target / speed;
+
+    if (count < target) {
+        counter.innerText = Math.ceil(count + inc); // Round up to ensure the target is reached
+        setTimeout(() => updateCount(counter), 1);
+    } else {
+        counter.innerText = target;
+    }
+};
+
+
+
+
+
+// Function to check if the counters section is in view and start counting
+const checkCountersInView = () => {
+    const countersSection = document.querySelector('.counters');
+
+    if (isInViewport(countersSection)) {
+        counters.forEach(updateCount);
+        window.removeEventListener('scroll', checkCountersInView); // Remove the listener once counting starts
+    }
+};
+
+// Listen for the scroll event to check when the counters section is in view
+window.addEventListener('scroll', checkCountersInView);
+
+// Initial check when the page loads
+checkCountersInView();
+
+
+  </script>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
