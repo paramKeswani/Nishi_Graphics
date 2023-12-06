@@ -1,226 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-
 <style>
-
-
-
-.footer .triangle {
-  display: flex;
-  justify-content: flex-end;
+*{
+    margin :0;
+    padding: 0;
+    font-family: "Source serif Pro";
 }
-
-.footer .triangle_1,
-.footer .triangle_2 {
-  width: 50%;
-  height: 200px;
-}
-
-.footer .triangle_1 {
-  background: linear-gradient(to bottom left, #fff 0%, #fff 50%, orange 50%, orange 100%);
-}
-
-.footer .triangle_2 {
-  background: linear-gradient(to bottom right, #fff 0%, #fff 50%, orange 50%, orange 100%);
-}
-
-.footer section {
-  background-color: orange;
-}
-
-.footer h6 {
-  background-color: orange;
-}
-
-.footer a {
-  color: white;
-}
-
-
-
-.footer .text-center {
-  background-color: orange;
-}
-
-.footer .text-muted {
-  background-color: orange;
-}
-
-.footer .container {
-  background-color: orange;
-}
-
-.footer .row {
-  background-color: orange;
-}
-
-.footer .col-md-3,
-.footer .col-md-2,
-.footer .col-md-4 {
-  background-color: orange;
-}
-
-.footer .fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.footer .fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.footer .fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.footer .fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-h3 {
-  margin-top: 10px;
-}
-
-
-
-
-.fa {
-padding: 20px;
-font-size: 30px;
-width: 30px;
-text-align: center;
-text-decoration: none;
-margin: 5px 2px;
-border-radius: 50%;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-background: #3B5998;
-color: white;
-}
-
-.fa-twitter {
-background: #55ACEE;
-color: white;
-}
-
-.fa-google {
-background: #dd4b39;
-color: white;
-}
-
-.fa-linkedin {
-background: #007bb5;
-color: white;
-}
-
-/* p,h1,h2,h3,h
-
-/* Add similar styles for other social media icons as needed */
-
-.footer {
-  overflow: hidden;
-  margin-bottom: 0;
-}
-
-.container-fluid.xyz {
-  padding-bottom: 0;
-}
-
-.triangle {
-  margin-bottom: -1px;
-}
-
-footer {
-  margin-top: 30px;
-  padding-top: 0;
-}
-
-.text-center.p-4 {
-  margin-bottom: 0;
-}
-
-.footer .container {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-/* Add these styles to your existing CSS */
 
 body {
-  margin: 0;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-.container-fluid.xyz {
-  padding-bottom: 0;
-}
+.footer  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+  }
 
-.footer .triangle {
-  margin-bottom: -1px;
-}
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    }
+    .fa:hover {
+        opacity: 0.7;
+      }
 
-.footer .container {
-  padding-left: 0;
-  padding-right: 0;
-}
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        }
+        
+        .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        }
+        
+        .fa-google {
+        background: #dd4b39;
+        color: white;
+        }
+        
+        .fa-linkedin {
+        background: #007bb5;
+        color: white;
+        }
 
-.footer .row {
-  margin-left: 0;
-  margin-right: 0;
-}
+      .footer  .triangle_1 {
+            width: 50%;
+            height: 200px;
+            background: linear-gradient(to bottom left, #fff 0%, #fff 50%, orange 50%, orange 100%);
+          }
+          
+       .footer   .triangle_2 {
+            width: 50%; /* Added colon here */
+            height: 200px;
+            background: linear-gradient(to bottom right, #fff 0%, #fff 50%,orange 50%,orange 100%);
+          }
+         .footer .xyz
+          {
+          margin: 0;
+          padding: 0;
+          }          
 
-.footer section {
-  margin-bottom: 0;
-}
-
-.footer h6 {
-  margin-bottom: 0;
-}
-
-.footer a {
-  text-decoration: none;
-}
-
-.footer .fa {
-  margin: 0;
-}
-
-.footer .text-center {
-  margin-bottom: 0;
-}
-
-.footer .text-muted {
-  margin-bottom: 0;
-}
+          .footer{
+            width:100%;
+            min-height: 100vh;
+            position: relative;
+            }
 
 
-
-
-
-
-
-
-
+          .footer  h2, h3 {
+                color: #333; /* Change to your preferred title color */
+              }
+              
+              /* Paragraph Styles */
+            .footer  p {
+                color: #555; /* Change to your preferred paragraph color */
+                font-size: 16px;
+              }
 </style>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<body>
           <!-- Footer -->
 <div class="footer">
   <div class="container-fluid pt-5"></div>
@@ -230,7 +94,7 @@ body {
 
   <div class="container-fluid   xyz " style="background-color: orange;">
 
-    <div class="triangle" style="display:flex;justify_content:flex-end;">
+    <div class="triangle" style="display:flex;justify-content:flex-end;">
       <div class="triangle_1">
       
           </div>
@@ -350,10 +214,3 @@ body {
 </footer>
 
 </div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    
-</body>
-</html>

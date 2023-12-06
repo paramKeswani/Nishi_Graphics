@@ -1,57 +1,10 @@
-.navbar-nav > li{
-    padding-left:20px;
-    padding-right:20px;
-  }
-  
-.navbar-brand{
-    padding-left:25px;
-    padding-right:0px;
-  }
-
-.jumbotron
-  {
-      background-image: url("");
-      height: 80vh;
-      background-size: cover;
-      background-position:center;
-      color: white;
-      border-radius: 0px!important;
-
-  }
-
-.jumbotron.img
-  {
-  overflow: hidden;
-  }
-  
-.jumbotron h1
-    {
-        margin: 30px 0;
-        font-size: 30px;
-        line-height: 1.5;
-  
-    }
-.jumbotron  .intro
-    {
-        padding-top: 60px;
-    }
-
-header {
-        text-align: center;
-        padding: 20px;
-      }
-
-nav a:hover {
-        color: #f4db1e;
-        background-color: #000000;
-        }
-
 *{
-          margin :0;
-          padding: 0;
-          font-family: "Source serif Pro";
-  }
-  body {
+    margin :0;
+    padding: 0;
+    font-family: "Source serif Pro";
+}
+
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -97,19 +50,18 @@ nav a:hover {
         color: white;
         }
 
-.footer .triangle_1
-{
+      .footer  .triangle_1 {
             width: 50%;
             height: 200px;
             background: linear-gradient(to bottom left, #fff 0%, #fff 50%, orange 50%, orange 100%);
           }
           
-.footer .triangle_2 {
+       .footer   .triangle_2 {
             width: 50%; /* Added colon here */
             height: 200px;
             background: linear-gradient(to bottom right, #fff 0%, #fff 50%,orange 50%,orange 100%);
           }
-        .footer .xyz
+         .footer .xyz
           {
           margin: 0;
           padding: 0;
@@ -132,24 +84,8 @@ nav a:hover {
                 font-size: 16px;
               }
 
-              .one {
-                display: flex;
-                justify-content: center;
-              }
-              
-              .one span {
-                display: inline-block;
-                opacity: 0;
-                filter: blur(4px);
-                margin: 0 5px; /* Adjust the margin as needed for spacing between spans */
-                animation: fade-in 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
-              }
-              
-              @keyframes fade-in {
-                100% {
-                  opacity: 1;
-                  filter: blur(0);
-                }
-              }
-  
-
+.footer
+{
+  padding: 0;
+  margin: 0;
+}
