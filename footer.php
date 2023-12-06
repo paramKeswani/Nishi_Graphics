@@ -9,374 +9,207 @@
 </head>
 
 <style>
-        .navbar-nav > li{
-      padding-left:20px;
-      padding-right:20px;
-    }
-    
-    .navbar-brand{
-      padding-left:25px;
-      padding-right:0px;
-    }
-    *{
-        margin :0;
-        padding: 0;
-        font-family: "Source serif Pro";
-    }
-    .jumbotron
-    {
-        background-image: url("");
-        height: 80vh;
-        background-size: cover;
-        background-position:center;
-        color: white;
-        border-radius: 0px!important;
-
-    }
-
-    .img
-{
-  overflow: hidden;
-}
-
-    .jumbotron h1
-    {
-        margin: 30px 0;
-        font-size: 30px;
-        line-height: 1.5;
-
-    }
-    .intro
-    {
-        padding-top: 60px;
-    }
-.card
-{
-    padding :1.5em .5em .5em;
-    text-align: center;
-    border-radius: 2em;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-
-}
 
 
 
-.abc img{
-  transition: all 1.07s ;
-}
-.abc:hover img
-{
-  transform :scale(1.07);
-}
-
-.counter-up
-{
-  background: red;
-  min-height: 50vh;
-
+.footer .triangle {
   display: flex;
-  align-items:center;
-
+  justify-content: flex-end;
 }
 
-.counter-up .content
-{
-  display :flex;
-  border: rgba(255, 255, 255, 0.6);
-  width :100%;
-  height:100%;
-  align-items: center;
-  justify-content:space-between;
-  background: url("https://www.shutterstock.com/shutterstock/videos/21485134/thumb/1.jpg?ip=x480") no-repeat;
-background-size: cover;
-position: relative;
+.footer .triangle_1,
+.footer .triangle_2 {
+  width: 50%;
+  height: 200px;
 }
 
-.counter-up::before{
-  position :absolute;
-  content:"";
-  top: 0;
-  left:0 ;
-  height: 100%;
-  width: 100%;
-
-  flex-wrap: wrap;
-
+.footer .triangle_1 {
+  background: linear-gradient(to bottom left, #fff 0%, #fff 50%, orange 50%, orange 100%);
 }
 
-.content .box
-{
-width: calc(10% -30px);
-border: 1px dashed white;
-border-radius: 5px;
-padding: 20px;
-display: flex;
-justify-content:space-evenly;
-color: white;
-flex-direction: column;
-padding-right: 10px;
-padding-left: 10px;
-margin-left: 30px;
-margin-right: 30px;
-
-
-
+.footer .triangle_2 {
+  background: linear-gradient(to bottom right, #fff 0%, #fff 50%, orange 50%, orange 100%);
 }
 
-.content .box .icon
-{
-  font-size: 25px;
+.footer section {
+  background-color: orange;
+}
+
+.footer h6 {
+  background-color: orange;
+}
+
+.footer a {
   color: white;
 }
 
-.content .box .counter-up{
-  font-size: 50px;
-  color: #f2f2f2;
-  font-weight: 500;
-  font-family: sans-serif;
+
+
+.footer .text-center {
+  background-color: orange;
 }
 
-.content .box .text 
-{
-  color: #ccc;
-  font-weight: 400;
-
+.footer .text-muted {
+  background-color: orange;
 }
 
-@media (max-width:1036px)
-{
-  .content-up
-  {
-    padding: 50px 50px 0 50px;
-  }
-  .content.box{
-    width:calc(50%-30px);
-    margin-bottom:50px;
-  }
+.footer .container {
+  background-color: orange;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.footer .row {
+  background-color: orange;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
+.footer .col-md-3,
+.footer .col-md-2,
+.footer .col-md-4 {
+  background-color: orange;
 }
 
-.counters {
-    height: 25vh;
-    width: 100%;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-}
-
-.counters div {
-    text-align: center;
-    padding: 20px;
-}
-
-.counter {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-h3 {
-    margin-top: 10px;
-}
-
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
+.footer .fa-facebook {
   background: #3B5998;
   color: white;
 }
 
-.fa-twitter {
+.footer .fa-twitter {
   background: #55ACEE;
   color: white;
 }
 
-.fa-google {
+.footer .fa-google {
   background: #dd4b39;
   color: white;
 }
 
-.fa-linkedin {
+.footer .fa-linkedin {
   background: #007bb5;
   color: white;
 }
 
-/* p,h1,h2,h3,h4,h5
-{
-  color: white;
-} */
-/* Add any other styles you need */
-.triangle_1 {
-    width: 50%;
-    height: 200px;
-    background: linear-gradient(to bottom left, #fff 0%, #fff 50%, orange 50%, orange 100%);
+h3 {
+  margin-top: 10px;
 }
 
-.triangle_2 {
-    width: 50%; /* Added colon here */
-    height: 200px;
-    background: linear-gradient(to bottom right, #fff 0%, #fff 50%,orange 50%,orange 100%);
+
+
+
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 50%;
 }
 
-.xyz
-{
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+/* p,h1,h2,h3,h
+
+/* Add similar styles for other social media icons as needed */
+
+.footer {
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.container-fluid.xyz {
+  padding-bottom: 0;
+}
+
+.triangle {
+  margin-bottom: -1px;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 0;
+}
+
+.text-center.p-4 {
+  margin-bottom: 0;
+}
+
+.footer .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Add these styles to your existing CSS */
+
+body {
   margin: 0;
-  padding: 0;
 }
 
-  /* Button Styles */
-  button {
-    background-color: goldenrod;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-
-  button:hover {
-    background-color: darkorange;
-    color: white;
-  }
-
-  /* Title Styles */
-  h2, h3 {
-    color: #333; /* Change to your preferred title color */
-  }
-
-  /* Paragraph Styles */
-  p {
-    color: #555; /* Change to your preferred paragraph color */
-    font-size: 16px;
-  }
-  .footer,.man_thing,.sixcards {
-  width:100%;
-  min-height: 100vh;
-  position: relative;
+.container-fluid.xyz {
+  padding-bottom: 0;
 }
 
-.counter{
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    width: 200px;
-    padding: 0 0 45px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
-}
-.counter:before,
-.counter:after{
-    content: '';
-    background-color: #05BCC0;
-    height: calc(100% - 120px);
-    width: 100%;
-    border-radius: 0 0 20px 20px;
-    position: absolute;
-    left: 0;
-    bottom: 20px;
-    z-index: -1;
-}
-.counter:after{
-    width: 30px;
-    height: 30px;
-    border-radius: 0;
-    transform: translateX(-50%) rotate(45deg);
-    bottom: 6px;
-    left: 50%;
-}
-.counter .counter-value{
-    color: #05BCC0;
-    background: linear-gradient(#f9f9f9 50%,#f2f2f2 50%);
-    font-size: 45px;
-    font-weight: 600;
-    line-height: 200px;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto 20px;
-    border-radius: 50%;
-    box-shadow: 0 -5px 0 rgba(255,255,255,0.8),0 10px 10px rgba(0, 0, 0, 0.3);
-    display: block;
-}
-.counter h3{
-    font-size: 17px;
-    font-weight: 500;
-    text-transform: capitalize;
-    margin: 0 10px;
-}
-.counter.red:before,
-.counter.red:after{
-    background-color: #F9605A;
-}
-.counter.red .counter-value{ color: #F9605A; }
-@media screen and (max-width:990px){
-    .counter{ margin-bottom: 40px; }
+.footer .triangle {
+  margin-bottom: -1px;
 }
 
-.counter.green:before,
-.counter.green:after{
-    background-color: rgb(128, 228, 131);
+.footer .container {
+  padding-left: 0;
+  padding-right: 0;
 }
-.counter.red .counter-value{ color: rgb(128, 228, 131); }
-@media screen and (max-width:990px){
-    .counter{ margin-bottom: 40px; }
-}
-.counter.red:before,
-.counter.red:after{
-    background-color:#e7ea27;
-}
-.counter.yellow .counter-value{ color:  #e7ea27; }
-@media screen and (max-width:990px){
-    .counter{ margin-bottom: 40px; }
-}   
-.counter.yellow .counter-value{ color: #e7ea27; }
-@media screen and (max-width:990px){
-    .counter{ margin-bottom: 40px; }
-}
-.counter.orange:before,
-.counter.orange:after{
-    background-color: #eead21;
-}
-.counter.orange .counter-value{ color:  #eead21; }
-@media screen and (max-width:990px){
-    .counter{ margin-bottom: 40px; }
-}   
 
-nav a:hover {
-color: #f4db1e;
-background-color: #000000;
+.footer .row {
+  margin-left: 0;
+  margin-right: 0;
 }
+
+.footer section {
+  margin-bottom: 0;
+}
+
+.footer h6 {
+  margin-bottom: 0;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer .fa {
+  margin: 0;
+}
+
+.footer .text-center {
+  margin-bottom: 0;
+}
+
+.footer .text-muted {
+  margin-bottom: 0;
+}
+
+
+
+
 
 
 
@@ -415,12 +248,12 @@ background-color: #000000;
 <!-- Section: Social media -->
 
 <!-- Section: Links  -->
-<section class="" style="background-color: orange;">
+<section class="pt-3" style="background-color: orange;">
 <div class="container text-center text-md-start " style="background-color: orange;">
   <!-- Grid row -->
   <div class="row mt-3" style="background-color: orange;">
     <!-- Grid column -->
-    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="background-color: orange;">
+    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 pt-3" style="background-color: orange;">
       <!-- Content -->
       <h6 class="text-uppercase fw-bold mb-4" style="background-color: orange;">
         <i class="fas fa-gem me-3"></i>WeReach
