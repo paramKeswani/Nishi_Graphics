@@ -3,8 +3,6 @@
 <head>
 <title>Home</title>
 <link rel="stylesheet" href="index2.css">
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </head>
 
 
@@ -234,36 +232,7 @@
       
 
       
-  <!-- now that man thing -->
-<!-- 
-  <div class="container-fluid w-100 pt-5 pb-3 g-4" style="height: 55%;">
-    <div class="container " style="display: flex; justify-content: space-evenly;">
-      <div class="container" style="display: flex; justify-content: space-evenly;"></div>
-      <div class="col-md-12 col-sm-12  gx-2 w-80" >
-        <img class="bg-image hover-zoom col-md-12 col-md-6 col-sm-12 "   style=" width: 90vg; height: 80vh;float:left; " src="https://wereachindia.com/wp-content/uploads/2023/10/quote-image-909x1024.webp" alt="">
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="container pt-5"></div>
-        <div class="container pt-5"></div>
-        <div class="container pt-3"></div>
-        <h3 style="text-align: left;color: orange;">Our Company</h3>
-        <br>
-        <h2>Let's know More about Us</h2>
-        <br>
-        
-        <p style="text-align: left;">
-          WeReach Infotech is an information technology hardware solution <br> company established in the year 2004 Bangalore, India. Offering high <br>quality and cost-effective laptop & computer repair services  and <br> network solutions. We support a wide range of businesses in many <br>industries and verticals, leverage our experience to keep everything <br> running smoothly so your business can focus on what it does <br> WeReach Infotech specialises in delivering a wide range of IT <br> solutions to our clients. Our team embodies a diverse range of <br> talents and technical skills that can devise a solution <br>that best fits your business requirements.
-        </p>
-        <br>
-        <button style="background-color: goldenrod; color: black;">Read More</button>
-
-
-
-      </div>
-      
-
-      </div>
-    </div> -->
+  
   <div class="man_thing" style="background-color: white;">
     <div class=" container w-100 pt-5 pb-3 g-4 content-justify-center" style="height: 55%;">
       <div class="row justify-content-center align-items-center">
@@ -412,7 +381,7 @@
 
       <!-- footer -->
       <!-- Footer -->
-<div class="footer">
+<!-- <div class="footer">
   <div class="container-fluid pt-5"></div>
   <div class="container-fluid pt-5"></div>
   
@@ -439,44 +408,44 @@
 <!-- Section: Social media -->
 
 <!-- Section: Links  -->
-<section class="" style="background-color: orange;">
+<!-- <section class="" style="background-color: orange;">
 <div class="container text-center text-md-start " style="background-color: orange;">
   <!-- Grid row -->
-  <div class="row mt-3" style="background-color: orange;">
+  <!-- <div class="row mt-3" style="background-color: orange;"> -->
     <!-- Grid column -->
-    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="background-color: orange;">
+    <!-- <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="background-color: orange;"> -->
       <!-- Content -->
-      <h6 class="text-uppercase fw-bold mb-4" style="background-color: orange;">
-        <i class="fas fa-gem me-3"></i>WeReach
-      </h6>
-      <p>
-        WeReach Infotech specialises in delivering a 
-         wide range of IT solutions to our clients.
+      <!-- <h6 class="text-uppercase fw-bold mb-4" style="background-color: orange;"> -->
+        <!-- <i class="fas fa-gem me-3"></i>WeReach -->
+      <!-- </h6> -->
+      <!-- <p> -->
+        <!-- WeReach Infotech specialises in delivering a  -->
+         <!-- wide range of IT solutions to our clients. -->
 
 
-      </p>
-      <div>
+      <!-- </p> -->
+      <!-- <div> -->
         <!-- Facebook -->
         
-        <a href="#" class="fa fa-facebook"></a>
+        <!-- <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-google"></a>
         <a href="#" class="fa fa-linkedin"></a>
-        </a>
+        </a> -->
 
 <!-- Pinterest -->
-                  </div>
+                  <!-- </div>
   
-    </div>
+    </div> -->
     <!-- Grid column -->
 
     <!-- Grid column -->
-    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" style="background-color: orange;">
+    <!-- <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" style="background-color: orange;"> -->
       <!-- Links -->
-      <h6 class="text-uppercase fw-bold mb-4">
-        Our Company
-      </h6>
-      <p>
+      <!-- <h6 class="text-uppercase fw-bold mb-4"> -->
+        <!-- Our Company -->
+<!-- /      </h6> -->
+      <!-- <p>
         <a href="aboutus.php" class="text-reset">About us</a>
       </p>
       <p>
@@ -488,34 +457,34 @@
       <p>
         <a href="Contactus.php" class="text-reset">Contact Us</a>
       </p>
-    </div>
+    </div> -->
     <!-- Grid column -->
 
     <!-- Grid column -->
-    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" style="background-color: orange;">
+    <!-- <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" style="background-color: orange;"> -->
       <!-- Links -->
-      <h6 class="text-uppercase fw-bold mb-4">
-        Useful links
-      </h6>
-      <p>
-        <a href="ITservices.php" class="text-reset">IT services</a>
-      </p>
-      <p>
-        <a href="Repairservices.php" class="text-reset">Repair Services</a>
-      </p>
-      <p>
-        <a href="Newsales.php" class="text-reset">New sales</a>
+      <!-- <h6 class="text-uppercase fw-bold mb-4"> -->
+        <!-- Useful links -->
+      <!-- </h6> -->
+      <!-- <p> -->
+        <!-- <a href="ITservices.php" class="text-reset">IT services</a> -->
+      <!-- </p> -->
+      <!-- <p> -->
+        <!-- <a href="Repairservices.php" class="text-reset">Repair Services</a> -->
+      <!-- </p> -->
+      <!-- <p> -->
+        <!-- <a href="Newsales.php" class="text-reset">New sales</a>
       </p>
       <p>
         <a href="Refurbishedlaptops.php" class="text-reset">Refurbished Lpatops</a>
       </p>
-    </div>
+    </div> -->
     <!-- Grid column -->
 
     <!-- Grid column -->
-    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 " style="background-color: orange;">
+    <!-- <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 " style="background-color: orange;"> -->
       <!-- Links -->
-      <h6 class="text-uppercase fw-bold mb-4"> <h3>Keep in touch</h3></h6>
+      <!-- <h6 class="text-uppercase fw-bold mb-4"> <h3>Keep in touch</h3></h6>
       <p> <br>Our expertise, well as our passion for IT Solutions,<br> sets us apart from other agencies.
 
       </p>
@@ -524,23 +493,23 @@
       
       </p>
 
-    </div>
+    </div> -->
     <!-- Grid column -->
-  </div>
+  <!-- </div> -->
   <!-- Grid row -->
-</div>
-</section>
+<!-- </div>
+</section> -->
 <!-- Section: Links  -->
 
 <!-- Copyright -->
-<div class="text-center p-4" style="background-color: orange;">
+<!-- <div class="text-center p-4" style="background-color: orange;">
 © 2023 Copyright:
 <a class="text-reset fw-bold" href="">WeReachIndia @ 2023.All Rights Reserved.</a>
-</div>
+</div> -->
 <!-- Copyright -->
-</footer>
+<!-- </footer>
 
-</div>
+</div>  -->
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js">
   $(document).ready(function(){
@@ -562,11 +531,15 @@
       
   
   <script>
-    const counters = document.querySelectorAll('.counter');
+  const counters = document.querySelectorAll('.counter');
 const speed = 200; // The lower the slower
 
 // Function to check if an element is in the viewport
 const isInViewport = (element) => {
+    if (!element) {
+        return false;
+    }
+    
     const rect = element.getBoundingClientRect();
     return (
         rect.top >= 0 &&
@@ -590,10 +563,6 @@ const updateCount = (counter) => {
     }
 };
 
-
-
-
-
 // Function to check if the counters section is in view and start counting
 const checkCountersInView = () => {
     const countersSection = document.querySelector('.counters');
@@ -611,12 +580,9 @@ window.addEventListener('scroll', checkCountersInView);
 checkCountersInView();
 
 
-  </script>
-  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
 
+  </script>
+
+  <?php include("footer.php"); ?>
+  
 

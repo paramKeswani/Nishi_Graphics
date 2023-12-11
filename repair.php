@@ -64,6 +64,18 @@ span:nth-child(4) {
 }
 
 
+.col-md-4 a {
+  text-decoration: none;
+}
+
+.card-body h5
+{
+  color: black;
+}
+
+h5:hover {
+  color:orange;
+}
 
 
 </style>
@@ -91,34 +103,42 @@ span:nth-child(4) {
     <div class="container pt-5 pb-3">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-md-4">
+         <a href="lmi.php">
+          <div class="div">
           <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;overflow: hidden;">
-            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/Sales-Image-2.jpg" alt="Sales"></div>
+            <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/Sales-Image-2.jpg" alt="Sales" style="transition: transform 0.4s ease; "></div>
             <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Sales</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">We maintain the highest standards of credibility and efficiency with every computer repair service we provide in an effort to deliver perfection.</p>
+              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Laptop Motherboard</b></h5>
+              <p class="card-text" style="text-align: left;font-size: x-large;">The motherboard serves as the core hub and is crucial to computer repair services. It plugs into all other parts and accessories, enabling smooth information sharing between them.</p>
               <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
             </div>
           </div>
-        </div>
+
+          </div>
+         
+         </a>        </div>
         <div class="col-md-4">
+         <a href="lki.php">
           <div class="card bg-image hover-zoom abc border-box" style="background-color:white;border-radius: 10px;border-radius: 10px;">
-           <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Repairing-Services-Image-2.jpg" alt="Repair Services"></div> 
+           <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Repairing-Services-Image-2.jpg" alt="Repair Services" style="transition: transform 0.4s ease;"></div> 
             <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"> <b>Repair Services</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">We establish a set of processes outlining best practices, optimizing IT services in our computer service center to surpass business standards.</p>
+              <h5 class="card-title" style="text-align: left;font-size: x-large;"> <b>Laptop Keyboard</b></h5>
+              <p class="card-text" style="text-align: left;font-size: x-large;">It's impossible to work on a laptop with inoperable or sticky keys. Let Broken Laptop Repair, experts in computer repair services, replace your keyboard, restoring it to feel brand new.</p>
               <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
             </div>
-          </div>
+          </div></a>
         </div>
         <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-          <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Upgrades_Options.jpg" alt="Upgrades and Options"></div>  
+         <a href="lhdi.php">
+         <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
+          <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Upgrades_Options.jpg" alt="Upgrades and Options" style="transition: transform 0.4s ease;"></div>  
             <div class="card-body" style="font-size: x-large;">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Upgrades and Options</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">We provide a variety of hardware upgrades as well as repurchase alternatives as part of our computer repair services.</p>
+              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Laptop Hard Disk</b></h5>
+              <p class="card-text" style="text-align: left;font-size: x-large;">Before offering a solution, the data recovery specialists at a laptop repair shop examine the hard drive to identify the fault. They frequently spot logical issues, even those involving software.</p>
               <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
             </div>
           </div>
+         </a>
         </div>
       </div>
     </div>
@@ -130,161 +150,43 @@ span:nth-child(4) {
     <div class="container pt-5 pb-3">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-md-4">
+          <a href="leri.php">
           <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/AMC-Image-2.jpg" alt="Sales"></div>
+            <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/AMC-Image-2.jpg" alt="Sales" style="transition: transform 0.4s ease;"></div>
             <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>AMC</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">Our laptop repair shop strongly focuses on quality, dependability, and efficiency.
-
+              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Laptop Enclouser repair</b></h5>
+              <p class="card-text" style="text-align: left;font-size: x-large;">The portability of a laptop is useful, but it causes wear. Have you noticed any scratches or signs of wear on your laptop or notebook? Our laptop repair service specialised in fixing the damage of lids, covers, and bottom cases. Renew your device using our support!
               </p>
               <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
             </div>
           </div>
+          </a>
         </div>
         <div class="col-md-4">
+          <a href="rentalsi.php">
           <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" alt="Repair Services"></div>
+            <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" alt="Repair Services" style="transition: transform 0.4s ease;"></div>
             <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Rentals</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">We provide excellent laptop cleaning services and are committed to providing the best computer rental services.</p>
+              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Laptop Battery & Adapters</b></h5>
+              <p class="card-text" style="text-align: left;font-size: x-large;">Occasionally the power switch assembly on a laptop will break, which means the user cannot power up or use the laptop! If your have a broken laptop power button, Broken Laptop Repair can help.</p>
               <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
             </div>
           </div>
+          </a>
         </div>
         <div class="col-md-4">
+          <a href="ledi.php">
           <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-           <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Facility-Management-Images-2.jpg" alt="Upgrades and Options"></div> 
+           <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Facility-Management-Images-2.jpg" alt="Upgrades and Options" style="transition: transform 0.4s ease;"></div> 
             <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Facility Management</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">This special pack of services has been designed for our existing Facility Management Services.</p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="sixcards">
-  <div class="container-fluid" style="">
+              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Laptop External Drives</b></h5>
+              <p class="card-text" style="text-align: left;font-size: x-large;">The CD/DVD drive on your laptop is necessary for loading programs, playing DVDs and CDs, copying files and more. If your CD/DVD drive is not reading, writing or performing the tasks it was meant to do we can replace the drive so you can use the laptop.
 
-    <div class="container justify-content-center  pb-2">
-     
-    </div>
-    <div class="container justify-content-center pb-3 mt-5" style="font-size: large;">
-     
-    </div>
-    <div class="container pt-5 pb-3">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;overflow: hidden;">
-            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/Sales-Image-2.jpg" alt="Sales"></div>
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Sales</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">We maintain the highest standards of credibility and efficiency with every computer repair service we provide in an effort to deliver perfection.</p>
+</p>
               <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color:white;border-radius: 10px;border-radius: 10px;">
-           <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Repairing-Services-Image-2.jpg" alt="Repair Services"></div> 
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"> <b>Repair Services</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">We establish a set of processes outlining best practices, optimizing IT services in our computer service center to surpass business standards.</p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-          <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Upgrades_Options.jpg" alt="Upgrades and Options"></div>  
-            <div class="card-body" style="font-size: x-large;">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Upgrades and Options</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">We provide a variety of hardware upgrades as well as repurchase alternatives as part of our computer repair services.</p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="b container-fluid" style="font-size: x-large;">
-    <div class="container pt-5 pb-3">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/AMC-Image-2.jpg" alt="Sales"></div>
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>AMC</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">Our laptop repair shop strongly focuses on quality, dependability, and efficiency.
-
-              </p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" alt="Repair Services"></div>
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Rentals</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">We provide excellent laptop cleaning services and are committed to providing the best computer rental services.</p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-           <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Facility-Management-Images-2.jpg" alt="Upgrades and Options"></div> 
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Facility Management</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">This special pack of services has been designed for our existing Facility Management Services.</p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="b container-fluid" style="font-size: x-large;">
-    <div class="container pt-5 pb-3">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/AMC-Image-2.jpg" alt="Sales"></div>
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>AMC</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">Our laptop repair shop strongly focuses on quality, dependability, and efficiency.
-
-              </p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" alt="Repair Services"></div>
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Rentals</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">We provide excellent laptop cleaning services and are committed to providing the best computer rental services.</p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-           <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Facility-Management-Images-2.jpg" alt="Upgrades and Options"></div> 
-            <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Facility Management</b></h5>
-              <p class="card-text" style="text-align: left;font-size: x-large;">This special pack of services has been designed for our existing Facility Management Services.</p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -292,7 +194,9 @@ span:nth-child(4) {
   
 
 
-</div>
+
+
+
 
 
 
