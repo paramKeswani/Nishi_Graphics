@@ -14,6 +14,14 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
+
+}
+
+.image{
+
+  display: inline-block;
+    overflow: hidden;
+
 }
 
 
@@ -241,8 +249,8 @@ body {
 
     <!-- First row with image on the left and paragraph on the right -->
     <div class="row zero" style="">
-      <div class="col-sm-6">
-      <img class="pb-5 mb-5 img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/quote-image-768x866.webp" alt="" style="max-width: 100%; ">
+      <div class="col-sm-6 image">
+      <img class="pb-5 mb-5 img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/quote-image-768x866.webp" alt="" style="max-width: 100%;">
       </div>
       <div class="col-sm-6 text-start">
         <h2 class="one" style="color: black;"><b><span>WHO</span> <span>WE</span> <span>ARE</span></b></h2>
@@ -333,6 +341,11 @@ body {
 	
 		<div class="wrapper w-100">
 			<div class="item"><img alt="" src="https://wereachindia.com/wp-content/uploads/2023/09/Dell-Logo-300x250.png"></div>
+			<div class="item"><img alt="" src="https://wereachindia.com/wp-content/uploads/2023/09/HP-logo-300x300.png"></div>
+			<div class="item"><img alt="" src="https://wereachindia.com/wp-content/uploads/2023/09/Toshiba-Logo-300x300.png"></div>
+			<div class="item"><img alt="" src="https://wereachindia.com/wp-content/uploads/2023/09/sony-removebg-preview-300x172.png"></div>
+			<div class="item"><img alt="" src="https://wereachindia.com/wp-content/uploads/2023/09/lenovo-logo-300x189.png"></div>
+      <div class="item"><img alt="" src="https://wereachindia.com/wp-content/uploads/2023/09/Dell-Logo-300x250.png"></div>
 			<div class="item"><img alt="" src="https://wereachindia.com/wp-content/uploads/2023/09/HP-logo-300x300.png"></div>
 			<div class="item"><img alt="" src="https://wereachindia.com/wp-content/uploads/2023/09/Toshiba-Logo-300x300.png"></div>
 			<div class="item"><img alt="" src="https://wereachindia.com/wp-content/uploads/2023/09/sony-removebg-preview-300x172.png"></div>

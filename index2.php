@@ -139,8 +139,8 @@
     <div class="container pt-5 pb-3">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;overflow: hidden;">
-            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/Sales-Image-2.jpg" alt="Sales"></div>
+          <div class="card container bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;overflow: hidden;">
+            <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/Sales-Image-2.jpg" alt="Sales" style="transition: transform 0.4s ease;"></div>
             <div class="card-body">
               <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Sales</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">We maintain the highest standards of credibility and efficiency with every computer repair service we provide in an effort to deliver perfection.</p>
@@ -149,8 +149,8 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color:white;border-radius: 10px;border-radius: 10px;">
-           <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Repairing-Services-Image-2.jpg" alt="Repair Services"></div> 
+          <div class="container card bg-image hover-zoom abc border-box" style="background-color:white;border-radius: 10px;border-radius: 10px;">
+           <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Repairing-Services-Image-2.jpg" alt="Repair Services" style="transition: transform 0.4s ease;"></div> 
             <div class="card-body">
               <h5 class="card-title" style="text-align: left;font-size: x-large;"> <b>Repair Services</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">We establish a set of processes outlining best practices, optimizing IT services in our computer service center to surpass business standards.</p>
@@ -159,8 +159,8 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-          <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Upgrades_Options.jpg" alt="Upgrades and Options"></div>  
+          <div class="container card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
+          <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Upgrades_Options.jpg" alt="Upgrades and Options" style="transition: transform 0.4s ease;"></div>  
             <div class="card-body" style="font-size: x-large;">
               <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Upgrades and Options</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">We provide a variety of hardware upgrades as well as repurchase alternatives as part of our computer repair services.</p>
@@ -178,8 +178,8 @@
     <div class="container pt-5 pb-3">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/AMC-Image-2.jpg" alt="Sales"></div>
+          <div class="card container bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
+            <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/AMC-Image-2.jpg" alt="Sales" style="transition: transform 0.4s ease;"></div>
             <div class="card-body">
               <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>AMC</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">Our laptop repair shop strongly focuses on quality, dependability, and efficiency.
@@ -190,8 +190,8 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-            <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" alt="Repair Services"></div>
+          <div class="card container bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
+            <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" alt="Repair Services" style="transition: transform 0.4s ease;"></div>
             <div class="card-body">
               <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Rentals</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">We provide excellent laptop cleaning services and are committed to providing the best computer rental services.</p>
@@ -200,8 +200,8 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-           <div class="img"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Facility-Management-Images-2.jpg" alt="Upgrades and Options"></div> 
+          <div class="card bg-image hover-zoom abc border-box container" style="background-color: white;border-radius: 10px;font-size: x-large;">
+           <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Facility-Management-Images-2.jpg" alt="Upgrades and Options"style="transition: transform 0.4s ease;" ></div> 
             <div class="card-body">
               <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Facility Management</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">This special pack of services has been designed for our existing Facility Management Services.</p>
