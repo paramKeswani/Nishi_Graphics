@@ -80,22 +80,35 @@ h5:hover {
 
 
 </style>
+<div class="jumbotron jumbotron-fluid text-center w-100 justify-content-center" style="background:#333; height:60vh;">
+        <div class="container-fluid w-100 " style="height:50vh;">
+            <div class="intro container-fluid justify-content h-100 pb-2 pt-1 px-1">
+                <img src="" alt="" style="overflow: hidden; width:100%;object-fit: cover;height:100%;">
+              
+                <!-- Add more content as needed -->
+            </div>
+        </div>
+    </
 
+    </div>
+    <div class="pt-5"></div>
+<div class="pt-5"></div>
 <div class="itservices">
 
-<div class="name" style="display:flex;justify-content:center;">
+
+<div class="name" style="display:flex;justify-content:left;margin-left:10%;">
 
 <div style="color:orange;justify-content:center;">
-        <span style="font-size:70px;">WeReach Infotech</span>
+        <span style="font-size:30px;">WeReach Infotech</span>
         <br>
-        <span style="color: black;justify-content:left;font-size:100px;">IT Services</span>
+        <span style="color: black;justify-content:left;font-size:50px;">IT Services</span>
     </div>
 
 </div>
 
 </div>
 
-<div class="sixcards">
+<div class="sixcards mb-5">
   <div class="container-fluid" style="">
 
     <div class="container justify-content-center  pb-2">

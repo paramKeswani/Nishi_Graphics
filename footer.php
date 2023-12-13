@@ -87,8 +87,8 @@ body {
 </style>
           <!-- Footer -->
 <div class="footer container-fluid">
-  <div class="container-fluid pt-5"></div>
-  <div class="container-fluid pt-5"></div>
+
+
   
 
 

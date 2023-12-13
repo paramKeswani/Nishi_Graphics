@@ -5,6 +5,19 @@
 <link rel="stylesheet" href="index2.css">
 </head>
 
+<div class="jumbotron jumbotron-fluid text-center w-100 justify-content-center" style="background:#333; height:60vh;">
+        <div class="container-fluid w-100 " style="height:100vh;">
+            <div class="intro container-fluid justify-content h-100 pb-2 pt-1 px-1">
+                <img src="" alt="" style="overflow: hidden; width:100%;object-fit: cover;height:100%;">
+              
+                <!-- Add more content as needed -->
+            </div>
+        </div>
+    </
+
+    </div>
+
+
 
 
               
@@ -71,7 +84,7 @@
             
         </div>
 
-              <div class="contianer" >
+              <div class="contianer-fluid" >
                 <div class="container col-md-10 col-sm-10 pt-5 pb-3 g-4">
                   <div class="row row-cols-1 row-cols-sm-5 row-cols-md-10 g-4 mx-auto justify-content-center  " >
                     <div class="col-md-3 col-sm-10">
@@ -96,7 +109,7 @@
                       <div class="card" style="border-radius: 10px;" >
                         <img src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title"style="font-size: x-large;"><b>Customer Support</b></h5>
+                          <h5 class="card-title"style="font-size: x-large;"><b>Quality Support</b></h5>
                           <p class="card-text"style="font-size: x-large;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, unde!</p>
                         </div>
                       </div>
@@ -135,7 +148,7 @@
       </h3>
     </div>
     <div class="container pt-5 pb-3">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col-md-4">
           <div class="card container bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;overflow: hidden;">
             <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/Sales-Image-2.jpg" alt="Sales" style="transition: transform 0.4s ease;"></div>
@@ -232,23 +245,22 @@
       
 
       
-  
+  <div class="row"></div>
   <div class="man_thing" style="background-color: white;">
     <div class=" container w-100 pt-5 pb-3 g-4 content-justify-center" style="height: 55%;">
       <div class="row justify-content-center align-items-center">
-        <div class="col-md-6 col-sm-12 container">
-          <img style="height: 80vh; float: left;" src="https://wereachindia.com/wp-content/uploads/2023/10/quote-image-909x1024.webp" alt="">
+        <div class="col-md-6 col-sm-12 ">
+          <img style="height: 62vh; float: right;" src="https://img.freepik.com/free-photo/man-wearing-t-shirt-gesturing_23-2149393667.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="">
         </div>
         <div class="col-md-6 col-sm-12 justify-content-center ">
-          <div class="container pt-5"></div>
-          <div class="container pt-3"></div>
+ 
           <div class="container-fluid align-items-center my-1 col-12  py-3">
-            <div class="container my-1 col-12  align-items-center  "><h3 style= "color: orange;font-size: xx-large;">Our Company</h3></div>
-                <div class="container my-1 col-12 align-items-center px-5  py-3"><h2 style="font-size: xx-large;">Let's know More about Us</h2></div>
+            <div class="container my-1 col-12  align-items-center  "><h3 style= "color: orange;font-size:70px;">Our Company</h3></div>
+                <div class="container my-1 col-12 align-items-center px-5  py-3 pb-5"><h2 style="font-size: xx-large;">Let's know More about Us</h2></div>
           
         
           
-          <div class="container-fluid my-1 col-12   align-items-center"><p style="text-align: left; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: x-large;">
+          <div class="container-fluid my-1 col-12   align-items-center text-justify"><p style="text-align: left; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: x-large;">
             WeReach Infotech is an information technology hardware solution  company established in the year 2004 Bangalore, India. Offering high quality and cost-effective laptop & computer repair services  and  network solutions. We support a wide range of businesses in many industries and verticals, leverage our experience to keep everything  running smoothly so your business can focus on what it does  WeReach Infotech specialises in delivering a wide range of IT  solutions to our clients. Our team embodies a diverse range of  talents and technical skills that can devise a solution that best fits your business requirements.
           </p>
           </div>
@@ -260,6 +272,8 @@
       </div>
     </div>
     
+    <div class="pt-5"></div>
+    <div class="pt-5"></div>
         
   
   
@@ -323,7 +337,7 @@
         <div class="row no-gutters justify-content-around" style="background-color:white;">
           <div class="card col-md-3 col-sm-12 mb-4 mx-3 px-3 bg-image hover-zoom" style="border: 1px solid gold; border-radius: 10px;">
             <div class="card-body">
-              <h5 class="card-title text-center">Repair Services</h5>
+              <h5 class="card-title text-center" style="font-size: xx-large;"> <b>Repair Services</b></h5>
               <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ad amet exercitationem quae quaerat repellendus corporis aspernatur quam ea commodi?</p>
               <p class="text-center">Robert Fox</p>
             </div>

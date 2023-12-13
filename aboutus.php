@@ -241,6 +241,18 @@ body {
 
 
 </style>
+<div class="jumbotron jumbotron-fluid text-center w-100 justify-content-center" style="background:#333; height:60vh;">
+        <div class="container-fluid w-100 " style="height:60vh;">
+            <div class="intro container-fluid justify-content h-100 pb-2 pt-1 px-1">
+                <img src="" alt="" style="overflow: hidden; width:100%;object-fit: cover;height:100%;">
+              
+                <!-- Add more content as needed -->
+            </div>
+        </div>
+    </
+
+    </div>
+
 
 
 
@@ -250,7 +262,7 @@ body {
     <!-- First row with image on the left and paragraph on the right -->
     <div class="row zero" style="">
       <div class="col-sm-6 image">
-      <img class="pb-5 mb-5 img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/quote-image-768x866.webp" alt="" style="max-width: 100%;">
+      <img class=" img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/quote-image-768x866.webp" alt="" style="max-width: 100%;">
       </div>
       <div class="col-sm-6 text-start">
         <h2 class="one" style="color: black;"><b><span>WHO</span> <span>WE</span> <span>ARE</span></b></h2>
@@ -292,7 +304,7 @@ body {
 
   </div>
   
-  <div class="pt-5"></div>
+  <!-- <div class="pt-5"></div> -->
 
 <div class="aone mb-5 container" style="margin-bottom: 30px;height:200px;width:100vw;">
 
@@ -334,8 +346,8 @@ body {
 
 </div>
 
-<div class="pt-5"></div>
-<div class="pt-5"></div>
+<!-- <div class="pt-5"></div>
+<div class="pt-5"></div> -->
 
 <div class="container bad content-justify-center slider-area  w-100" style="height: 300px;width:100vw ;display:flex;justify-content:center;align-items:center;">
 	
