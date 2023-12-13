@@ -58,17 +58,17 @@
                         </a>
                         <ul class="dropdown-menu" style="color: white;">
                             <li><a class="dropdown-item" href="sales.php">New Sales</a></li>
-                            <li><a class="dropdown-item" href="#">Refurbished Laptops</a></li>
+                            <li><a class="dropdown-item" href="refurbished.php">Refurbished Laptops</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: white;" href="#">Clients</a>
+                        <a class="nav-link" style="color: white;" href="clients.php">Clients</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: white;" href="#">T & C</a>
+                        <a class="nav-link" style="color: white;" href="tandc.php">T & C</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="color: white;" href="#">Contact</a>
+                        <a class="nav-link" style="color: white;" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>

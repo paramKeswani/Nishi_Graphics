@@ -45,6 +45,7 @@
     </style>
 
 <div class="container my-5">
+<img src="https://wereachindia.com/wp-content/uploads/2023/09/miniature-engineer-worker-plug-lan-cable-computer.jpg" alt="" style="width:90vw;">
         <p>
             WeReach Infotech is the leading provider of computer rental services in Bangalore. We own a wide range of products and brands. Anything that comes under the umbrella of computer rentals, we can handle your demands. If you are looking for laptops, desktops, servers, printers, and other IT equipment rental services in Bangalore, get in touch with WeReach Infotech. As we are the best IT products leasing company, we have planned an affordable price list for all our clients. Call us today! Hire top-quality products as per your specific needs!
         </p>
