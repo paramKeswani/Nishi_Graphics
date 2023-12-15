@@ -88,17 +88,16 @@ h5:hover {
         }
 </style>
 
-<div class="jumbotron jumbotron-fluid text-center w-100 justify-content-center" style="background:#333; height:60vh;">
-        <div class="container-fluid w-100 " style="height:50vh;">
-            <div class="intro container-fluid justify-content h-100 pb-2 pt-1 px-1">
-                <img src="z.jpg" alt="" style="overflow: hidden; width:100%;object-fit: cover;height:100%;">
-              
-                <!-- Add more content as needed -->
-            </div>
-        </div>
-    </
 
+
+<div class="jumbotron jumbotron-fluid text-center text-light" style="height: 90vh; background-image: url('https://img.freepik.com/free-photo/data-technology-blue-background-with-hacker-remixed-media_53876-108534.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais'); background-size: cover;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%);">
+    <div class="container-fluid h-100 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-3 text-black text-center mb-4"> <span>IT</span> <span>SERVICES</span></h1>
+        <!-- <h1 class="display-3 text-white mb-4"> <span>Repair</span> <span>Service</span> </h1> -->
+        
     </div>
+</div>
     <div class="pt-5"></div>
 <div class="pt-5"></div>
 <div class="itservices">
@@ -107,7 +106,7 @@ h5:hover {
 <div class="name" style="display:flex;justify-content:left;margin-left:10%;">
 
 <div style="color:orange;justify-content:center;">
-        <span style="font-size:50px;">WeReach Infotech</span>
+        <span style="font-size:50px;">Nishi Graphics</span>
         <br>
         <span style="color: black;justify-content:left;font-size:70px;">IT Services</span>
     </div>
@@ -126,7 +125,7 @@ h5:hover {
                     <div class="col-md-4">
                         <a href="lan.php" class="card-container">
                             <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;overflow: hidden;">
-                                <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/Sales-Image-2.jpg" alt="Sales" style="transition: transform 0.4s ease;"></div>
+                                <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://img.freepik.com/free-photo/young-man-engineer-making-program-analyses_1303-20401.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="Sales" style="transition: transform 0.4s ease;"></div>
                                 <div class="card-body">
                                     <h5 class="card-title text-center" style="text-align: left;font-size: x-large;"><b>LAN / WAN Services</b></h5>
                                     <p class="card-text" style="text-align: left;font-size: x-large;">We assess your networking requirement and design and implement optimal networks to fulfill your current needs, future/expansion plans and existing technology.</p>
@@ -140,7 +139,7 @@ h5:hover {
                     <div class="col-md-4">
                         <a href="repairi.php" class="card-container">
                             <div class="card bg-image hover-zoom abc border-box" style="background-color:white;border-radius: 10px;border-radius: 10px;">
-                                <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Repairing-Services-Image-2.jpg" alt="Repair Services" style="transition: transform 0.4s ease;"></div>
+                                <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://img.freepik.com/free-photo/technician-repairing-computer-computer-hardware-repairing-upgrade-technology_1150-8861.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="Repair Services" style="transition: transform 0.4s ease;"></div>
                                 <div class="card-body">
                                     <h5 class="card-title text-center" style="text-align: left;font-size: x-large;"><b>Repair Services</b></h5>
                                     <p class="card-text" style="text-align: left;font-size: x-large;">At our computer repair shop, we optimize IT services according to company needs and efficiently manage infrastructure by putting best practices into action.</p>
@@ -154,7 +153,7 @@ h5:hover {
                     <div class="col-md-4">
                         <a href="upgradesi.php" class="card-container">
                             <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-                                <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Upgrades_Options.jpg" alt="Upgrades and Options" style="transition: transform 0.4s ease;"></div>
+                                <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://img.freepik.com/free-photo/lastest-version-fresh-updates-application-updates-concept_53876-123756.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="Upgrades and Options" style="transition: transform 0.4s ease;"></div>
                                 <div class="card-body" style="font-size: x-large;">
                                     <h5 class="card-title text-center" style="text-align: left;font-size: x-large;"><b>Upgrades and Options</b></h5>
                                     <p class="card-text" style="text-align: left;font-size: x-large;">We provide buyback programs, hardware upgrades, and technical support services, such as our computer service center for thorough hardware and software maintenance.</p>
@@ -173,7 +172,7 @@ h5:hover {
                         <div class="col-md-4">
                             <a href="amci.php" class="card-container">
                                 <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-                                    <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/AMC-Image-2.jpg" alt="Sales" style="transition: transform 0.4s ease;"></div>
+                                    <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://img.freepik.com/free-photo/attention-this-part-polygraph-examiner-works-office-with-his-lie-detector-s-equipment_146671-17272.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="Sales" style="transition: transform 0.4s ease;"></div>
                                     <div class="card-body">
                                         <h5 class="card-title text-center" style="text-align: left;font-size: x-large;"><b>AMC</b></h5>
                                         <p class="card-text" style="text-align: left;font-size: x-large;">We provide top priority to efficiency, quality, and dependability in products. To further ensure excellent computer repair services, we also provide yearly maintenance plans for all kinds of PC.</p>
@@ -187,7 +186,7 @@ h5:hover {
                         <div class="col-md-4">
                             <a href="rentalsi.php" class="card-container">
                                 <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-                                    <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" alt="Repair Services" style="transition: transform 0.4s ease;"></div>
+                                    <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://img.freepik.com/free-photo/close-up-person-working-call-center_23-2149288220.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="Repair Services" style="transition: transform 0.4s ease;"></div>
                                     <div class="card-body">
                                         <h5 class="card-title text-center" style="text-align: left;font-size: x-large;"><b>Rentals</b></h5>
                                         <p class="card-text" style="text-align: left;font-size: x-large;">We offer top-notch computer rental equipment supported by our service and qualified technicians. Once rented, our laptop repair shop ensures maintenance for all products.</p>
@@ -201,7 +200,7 @@ h5:hover {
                         <div class="col-md-4">
                             <a href="facilityi.php" class="card-container">
                                 <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-                                    <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Facility-Management-Images-2.jpg" alt="Upgrades and Options" style="transition: transform 0.4s ease;"></div>
+                                    <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://img.freepik.com/free-photo/unrecognizable-man-neon-safety-vest-business-suit-sitting-desk-using-laptop_1098-17504.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="Upgrades and Options" style="transition: transform 0.4s ease;"></div>
                                     <div class="card-body">
                                         <h5 class="card-title text-center" style="text-align: left;font-size: x-large;"><b>Facility Management</b></h5>
                                         <p class="card-text" style="text-align: left;font-size: x-large;">This particular service pack is designed for our current Facility Management Services clients that want extra help with IT, such as thorough computer repair services.</p>

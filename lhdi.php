@@ -1,4 +1,13 @@
 <?php include("header.php") ?>
+<div class="jumbotron jumbotron-fluid text-center text-light" style="height: 90vh; background-image: url('https://img.freepik.com/free-photo/network-mainboard-service-toy-broadcasting_1286-290.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais'); background-size: cover;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%);">
+    <div class="container-fluid h-100 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-3 text-black text-center mb-4">  <span>RENTALS</span></h1>
+        <!-- <h1 class="display-3 text-white mb-4"> <span>Repair</span> <span>Service</span> </h1> -->
+        
+    </div>
+</div>
+
 
 <head>
 <!-- <link rel="stylesheet" href="index2.css"> -->
@@ -17,7 +26,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 <div class="container col-12" style="width:80vw;">
-    <img class="img-fluid rounded-corners" src="https://wereachindia.com/wp-content/uploads/2023/09/miniature-engineer-worker-plug-lan-cable-computer.jpg" alt="" style="object-fit: contain;">
+    <img class="img-fluid rounded-corners" src="https://img.freepik.com/free-photo/high-angle-hands-repairing-hard-drive_23-2149413397.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="" style="object-fit: contain;">
     
 
     <style>
@@ -32,7 +41,7 @@
 </head>
 <body>
 
-<div class="container text-center my-5">
+<div class="container text-left my-5">
         <h1 class="text-left" style="color: black;">Laptop Hard Disk Repair & Replacement Company in Bangalore</h1>
         <p class="text-left" style="color: black;">Trusted Laptop Hard Disk Repair & Replacement Company in Bangalore</p>
 

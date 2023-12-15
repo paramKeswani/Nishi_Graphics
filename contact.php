@@ -166,36 +166,103 @@ span:nth-child(4) {
     </style>
 
 </style>
-<div class="jumbotron jumbotron-fluid text-center w-100 justify-content-center" style="background:#333; height:60vh;">
-        <div class="container-fluid w-100 " style="height:50vh;">
-            <div class="intro container-fluid justify-content h-100 pb-2 pt-1 px-1">
-                <img src="" alt="" style="overflow: hidden; width:100%;object-fit: cover;height:100%;">
-              
-                <!-- Add more content as needed -->
-            </div>
-        </div>
-    </
+<style>
+  .jumbotron  h1, h2 {
+    font-family: "Montserrat Medium";
+    max-width: 40ch;
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
 
+@keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+
+span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+}
+
+span:nth-child(1) {
+    animation: fade-in 3s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+    animation: fade-in 3s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+    animation: fade-in 3s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+    animation: fade-in 3s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+.col-md-4 a {
+  text-decoration: none;
+}
+
+.card-body h5
+{
+  color: black;
+}
+
+h5:hover {
+  color:orange;
+}
+.card-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+
+
+</style>
+<div class="jumbotron jumbotron-fluid text-center text-light" style="height: 90vh; background-image: url('https://img.freepik.com/free-photo/checking-current-laptop-circuit-board_1098-13759.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais'); background-size: cover;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%);">
+    <div class="container-fluid h-100 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-3 text-black text-center mb-4"> <span>Contact us</span></h1>
+        <!-- <h1 class="display-3 text-white mb-4"> <span>Repair</span> <span>Service</span> </h1> -->
+        
     </div>
+</div>
+    <div class="pt-5"></div>
+<div class="pt-5"></div>
+
 
 <div class="contact">
-
-<div class="name" style="display:flex;justify-content:center;">
-
-<div style="color:orange;justify-content:center;">
-        <span style="font-size:70px;">WeReach Infotech</span>
-        <br>
-        <span style="color: black;justify-content:left;font-size:100px;">Contact Address</span>
+    <div class="name" style="display: flex; justify-content: center;">
+        <!-- Content here -->
     </div>
-
+</div>
+<div class="contact">
+    <div class="name" style="display: flex; justify-content: center;">
+        <!-- Content here -->
+    </div>
 </div>
 
-</div>
-
-<div class="container-fluid mb-5 ">
+<div class="container-fluid mb-5">
     <div class="row justify-content-center">
-
-        <div class=" col-lg-4 mb-3">
+        <div class="col-md-4 mb-3">
             <div class="card">
                 <div class="card-content">
                     <div class="aButton">
@@ -209,7 +276,7 @@ span:nth-child(4) {
             </div>
         </div>
 
-        <div class=" col-lg-4 mb-3">
+        <div class="col-md-4 mb-3">
             <div class="card">
                 <div class="card-content">
                     <div class="aButton">
@@ -224,7 +291,7 @@ span:nth-child(4) {
             </div>
         </div>
 
-        <div class=" col-lg-4 mb-3">
+        <div class="col-md-4 mb-3">
             <div class="card">
                 <div class="card-content">
                     <div class="aButton">
@@ -239,26 +306,23 @@ span:nth-child(4) {
                 </div>
             </div>
         </div>
-
     </div>
 
-    <div class="row container fluid">
-    <div class="col-md-6 message ">
-<div class="contact-form">
-    <h2>Send a Message</h2>
-    <input type="text" placeholder="Your Name">
-    <input type="tel" placeholder="Your Phone Number">
-    <button>Book a Service</button>
-</div>
-</div>
-<div class="col-md-6">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.2497233396757!2d73.83103767401347!3d19.955997523760328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeacf3f1b1f1b%3A0xc4b91ceddc9dc924!2sNishi%20Graphics!5e0!3m2!1sen!2sin!4v1702374658479!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+    <div class="row container-fluid">
+        <div class="col-md-6">
+            <div class="contact-form">
+                <h2 style="font-size: 2em; text-align: left;">Send a Message</h2>
+                <input type="text" placeholder="Your Name">
+                <input type="tel" placeholder="Your Phone Number">
+                <button>Book a Service</button>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.2497233396757!2d73.83103767401347!3d19.955997523760328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeacf3f1b1f1b%3A0xc4b91ceddc9dc924!2sNishi%20Graphics!5e0!3m2!1sen!2sin!4v1702374658479!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
-    
 </div>
-
-
 
 
 

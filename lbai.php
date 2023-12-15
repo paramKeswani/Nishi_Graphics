@@ -1,5 +1,17 @@
 <?php include("header.php") ?>
 
+<div class="jumbotron jumbotron-fluid text-center text-light" style="height: 90vh; background-image: url('https://img.freepik.com/free-photo/two-open-laptops-with-pencils-holder-wooden-table-with-empty-colorful-chairs_23-2147924171.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais'); background-size: cover;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%);">
+    <div class="container-fluid h-100 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-3 text-black text-center mb-4">  <span>LAPTOPS</span> <span>ENCLOUSER</span> <span>REPAIR</span></h1>
+        <!-- <h1 class="display-3 text-white mb-4"> <span>Repair</span> <span>Service</span> </h1> -->
+        
+    </div>
+</div>
+
+
+
+
 <head>
 <!-- <link rel="stylesheet" href="index2.css"> -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -29,56 +41,120 @@
             font-size: large;
         }
     </style>
+    <style>
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h1, h2 {
+    font-family: "Montserrat Medium";
+    max-width: 40ch;
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+
+span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+}
+
+span:nth-child(1) {
+    animation: fade-in 3s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+    animation: fade-in 3s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+    animation: fade-in 3s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+    animation: fade-in 3s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+
+.col-md-4 a {
+  text-decoration: none;
+}
+
+.card-body h5
+{
+  color: black;
+}
+
+h5:hover {
+  color:orange;
+}
+
+
+</style>
+
 </head>
 <body>
 
 <div class="container text-center my-5">
-        <h1 class="text-left" style="color: black;">Laptop Motherboard</h1>
-        <p class="text-left" style="color: black;">Trusted Laptop Motherboard Repair Service Company in Bangalore</p>
+        <h1 class="text-left" style="color: black;">Laptop Battery and Adaptor Repair</h1>
+        <p class="text-left" style="color: black;">Trusted Laptop Battery and Adaptor Repair Company in Bangalore</p>
 
         <p class="text-left" style="color: black;">
-            WeReach Infotech is now offering the best computer motherboard repairing services in Bangalore. Did you know? The defective computer, laptop, or desktop can be repaired without the need for expensive spare parts. Our technical experts examine the problems of your laptop or desktop motherboard and come up with the customized solutions. Do you have these problems? These are just few common problems we can list out. However, do you have any other specific problems? Bring it to us! Generally, we take a couple of days to solve the issue. Once we know the exact problem, it becomes easy for us to suggest you the affordable computer or laptop repair cost. In fact, we have solved many motherboard repair issues within 24 hours. Call us or visit us directly for detailed information.
+            Is your laptop battery dying very quickly? If your laptop charger is not working fine, then you are at the right place. WeReach Infotech takes care of all the battery and adapter repair services in Bangalore. You might have got adjusted to a bad battery life and always keep it under charging mode. But, it is not a convenient option!
         </p>
 
-        <h2 class="text-left" style="color: black;">Why Should You Choose Our Computer Motherboard Repairing Services?</h2>
         <p class="text-left" style="color: black;">
-            If your computer system or laptop suddenly stops working, there is a dilemma! Should you buy new laptop or get it repaired. Will the laptop motherboard replacement service cost is affordable or not? Do you have similar type of questions in mind? Don’t worry! At WeReach Infotech, we can provide you the best solution as per the intensity of damage. Our experts will also suggest you the price estimation at the initial stage. Let it be small laptop motherboard repair or replacing motherboard itself. We will take up the responsibility to repair motherboard of your laptop / desktop. We have served the customers who faced the similar problems with new laptop or computers too. Motherboard is the most delicate and important part of the computer. Only professionals can handle it efficiently. So, we will check it out whether any parts are burnt and replace accordingly. Sometimes, we will have to remove the corrosion of few parts of motherboard happened due to liquid / water damage. Our technology geeks have the ability to provide the city’s best computer / laptop mother board repairing services in Bangalore. Are you wondering about how PC motherboard problems look like? How to identify them? Here are few check points you can observe.
+            Our team of authorized professionals will help you to resolve the challenges related to laptop charger. Sometimes, there might be a problem with the power cable, power jack, circuit board, and much more. In case of broken issues, we recommend getting it fixed as soon as possible.
+        </p>
+
+        <h2 class="text-left" style="color: black;">Why Should You Choose Our Laptop Battery and Adaptor Replacement Services?</h2>
+        <p class="text-left" style="color: black;">
+            There might be a lot of confusions in customer minds. Just don’t worry! Get your laptop to our shop in Bangalore. We will let you know why the battery or adaptor is not working properly. Also, this helps us to provide the right cost estimation by clearly understanding the issue. However, we deal with all the top brands when it comes to laptop battery and adaptor replacement service. It includes:
+        </p>
+
+        <ul class="text-left" style="color: black;">
+            <li>Apple / Mac</li>
+            <li>HP</li>
+            <li>Dell</li>
+            <li>Asus</li>
+            <li>Acer</li>
+            <li>Toshiba</li>
+            <li>Samsung</li>
+            <li>Lenovo</li>
+            <li>Sony</li>
+        </ul>
+
+        <p class="text-left" style="color: black;">
+            Let it be any brand, our expert technicians know how to get rid of power-off problems. Repairing and replacing the laptop battery demands good experience in the market. With more than 15 years of experience, WeReach Infotech has dealt with different laptop battery problems. We have the right set of equipment at our laptop repair and replacement service center in Bangalore.
+        </p>
+
+        <p class="text-left" style="color: black;">
+            Building a network with trusted vendors in Bangalore is a challenging task. We have built it over years. So, getting high-quality spare parts is not a problem for us. This has helped us to provide the best quality repair and replacement services. The service cost for battery repair and replacement differs. It depends on the complexity of damage caused. After detailed analysis, we will give you the affordable price list. As our engineers are skilled and professional at component level repairing, your laptop is in safe hands.
+        </p>
+
+        <p class="text-left" style="color: black;">
+            One of the most common problems is AC power adaptor. This demands repair and DC jack replacement. The expert guidance is necessary to deal with laptop power supply repair. We need to discover the issue lies in the power adaptor, power cord is broken, or the laptop battery is dead. Let us fix the broken and faulty laptop charger. Give us a call for more detailed information.
         </p>
 
         <h2 class="text-left" style="color: black;">How Can We Help You?</h2>
         <p class="text-left" style="color: black;">
-            Here is a list of our AMC services. Do you have something else to know about? Call us today and our company experts will join the discussion. We always maintain the communication with clients at highest priority. Without compromising upon the quality, we intend to deliver the innovative and demanding performance.
-        </p>
-
-        <ul class="text-left" style="color: black;">
-            <li>Getting a black screen display and laptop / PC has no video.</li>
-            <li>Fluctuating power. Your PC or laptop turns on and off abruptly.</li>
-            <li>Some of the laptop or computer peripherals stop working</li>
-            <li>Suddenly your system switches off.</li>
-        </ul>
-
-        <p class="text-left" style="color: black;">
-            In the above cases, you will need help from computer or laptop motherboard repairing service companies in Bangalore.
-
-            WeReach Infotech technicians are experienced and highly skilled in providing laptop / PC motherboard repair services. Sometimes, the fault happens due to the defective electronic components. The minor replacement and repair service will solve the purpose. On the other hand, detailed complications might also be the reason. This demands the excellent state of the art of computer repair equipments. With our company having more than 15 years of experience, we have the demanded tools / equipments. Talk to our experts today! We will help you in examining and repairing the PC / laptop motherboard faults in Bangalore.
+            WeReach Infotech is the one-stop company to offer laptop battery / adapter repair services in Bangalore. As we work on all the top brands, expect the customized solutions from our team. We also do laptop battery rebuild service at our center. If you want to know the exact laptop battery / adapter repair and replacement cost, you need to talk to our professionals. So that even you will get a perfect idea about our service quality. We need to check whether the problem is with the battery or adapter. Then it would be easy to suggest the best price. Give us a call now for more information!
         </p>
     </div>
-
-    <!-- LAN / WAN Services Section -->
-    <div class="container text-center my-5">
-        <h1 class="text-left" style="color: black;">LAN / WAN Services</h1>
-        <p class="text-left" style="color: black;">Trusted Computer WAN / LAN Networking Services Company in Bangalore</p>
-
-        <p class="text-left" style="color: black;">
-            WeReach Infotech has more than 15 years of experience in IT support and service industry. If you are looking for the experienced LAN / WAN services provider in Bangalore location, you have come to the right place. With the help of skilled and professional team, we take care of installation of networking devices and create LAN / WAN as per your specific needs. You can surely expect the best quality from our industry experienced team. At the same time, our computer LAN / WAN networking service experts ensure the precise results too. Above all, we can plan an affordable pricing for the LAN / WAN installation and support services we offer. Since 2004, our clients are happy to receive the hassle free implementation and execution provided from our WeReach Infotech.
-        </p>
-
-        <h2 class="text-left" style="color: black;">Why Should You Choose WeReach Infotech LAN / WAN Services?</h2>
-        <p class="text-left" style="color: black;">
-            Being one among the top networking solutions companies in Bangalore, we work hard to serve the best. In fact, we make use of the latest tools and technology to offer high-quality LAN / WAN cabling services. We have handled a wide range of LAN / WAN connectivity services for small and medium businesses. Depending upon the client specifications, we have offered LAN / WAN connection to offices, corporate houses, educational institutes, and industries. When it comes to local area network (LAN) or wide area network (WAN) services, our team has special focus in providing superior speed, customized designs, and high-performance results every time. Which type of network do you want? Our team provides both wired and wireless networking services in Bangalore. Through the careful LAN / WAN wiring installation, we have served a big list of happy clients. As a first step, our technical experts sit with a client and comprehend the requirements. This helps our team to come up with the best WAN / LAN designing services. Anything that comes under structured networking and cabling solutions, you can connect with us. WeReach Infotech has experts to handle your
-
-
-
-
-
-

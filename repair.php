@@ -1,5 +1,7 @@
 <?php include("header.php"); ?>
 
+
+
 <head>
 <link rel="stylesheet" href="index2.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -80,50 +82,46 @@ h5:hover {
 
 </style>
 
-<div class="jumbotron jumbotron-fluid text-center w-100 justify-content-center" style="background:#333; height:60vh;">
-        <div class="container-fluid w-100 " style="height:50vh;">
-            <div class="intro container-fluid justify-content h-100 pb-2 pt-1 px-1">
-                <img src="C:\Users\Lenovo\OneDrive\Desktop\z.jpg" alt="" style="overflow: hidden; width:100%;object-fit: cover;height:100%;">
-              
-                <!-- Add more content as needed -->
-            </div>
-        </div>
-    </
-
+<div class="jumbotron jumbotron-fluid text-center text-light" style="height: 90vh; background-image: url('https://img.freepik.com/free-photo/checking-current-laptop-circuit-board_1098-13759.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais'); background-size: cover;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%);">
+    <div class="container-fluid h-100 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-3 text-black text-center mb-4"> <span>REPAIR</span> <span>SERVICES</span></h1>
+        <!-- <h1 class="display-3 text-white mb-4"> <span>Repair</span> <span>Service</span> </h1> -->
+        
     </div>
+</div>
+    <div class="pt-5"></div>
+<div class="pt-5"></div>
+<div class="itservices">
 
-<div class="repair">
 
-<div class="name" style="display:flex;justify-content:center;">
+<div class="name" style="display:flex;justify-content:left;margin-left:10%;">
 
 <div style="color:orange;justify-content:center;">
-        <span style="font-size:70px;">WeReach Infotech</span>
+        <span style="font-size:50px;">Nishi Graphics</span>
         <br>
-        <span style="color: black;justify-content:left;font-size:100px;">Repair Service</span>
+        <span style="color: black;justify-content:left;font-size:70px;">Repair Service</span>
     </div>
+
+</div>
 
 </div>
 
 <div class="sixcards">
   <div class="container-fluid" style="">
 
-    <div class="container justify-content-center  pb-2">
-     
-    </div>
-    <div class="container justify-content-center pb-3 mt-5" style="font-size: large;">
-     
-    </div>
+   
     <div class="container pt-5 pb-3">
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col-md-4">
+        <div class="col-md-4 h-100">
          <a href="lmi.php">
           <div class="div">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;overflow: hidden;">
-            <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/Sales-Image-2.jpg" alt="Sales" style="transition: transform 0.4s ease; "></div>
-            <div class="card-body">
+          <div class="card bg-image hover-zoom abc border-box h-100" style="background-color: white;border-radius: 10px;overflow: hidden;">
+            <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://img.freepik.com/free-photo/overhead-view-man-repairing-computer-hardware-equipment_23-2147883769.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="Sales" style="transition: transform 0.4s ease; "></div>
+            <div class="card-body h-100">
               <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Laptop Motherboard</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">The motherboard serves as the core hub and is crucial to computer repair services. It plugs into all other parts and accessories, enabling smooth information sharing between them.</p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
+
             </div>
           </div>
 
@@ -132,23 +130,23 @@ h5:hover {
          </a>        </div>
         <div class="col-md-4">
          <a href="lki.php">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color:white;border-radius: 10px;border-radius: 10px;">
-           <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Repairing-Services-Image-2.jpg" alt="Repair Services" style="transition: transform 0.4s ease;"></div> 
+          <div class="card bg-image hover-zoom abc border-box h-100" style="background-color:white;border-radius: 10px;border-radius: 10px;">
+           <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://img.freepik.com/free-photo/keyboard-mouse-table_93675-128790.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="Repair Services" style="transition: transform 0.4s ease;"></div> 
             <div class="card-body">
               <h5 class="card-title" style="text-align: left;font-size: x-large;"> <b>Laptop Keyboard</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">It's impossible to work on a laptop with inoperable or sticky keys. Let Broken Laptop Repair, experts in computer repair services, replace your keyboard, restoring it to feel brand new.</p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
+             
             </div>
           </div></a>
         </div>
         <div class="col-md-4">
          <a href="lhdi.php">
-         <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-          <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Upgrades_Options.jpg" alt="Upgrades and Options" style="transition: transform 0.4s ease;"></div>  
+         <div class="card bg-image hover-zoom abc border-box h-100" style="background-color: white;border-radius: 10px;font-size: x-large;">
+          <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://img.freepik.com/free-photo/hard-disk-with-blue-light-high-angle_23-2149413364.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="Upgrades and Options" style="transition: transform 0.4s ease;"></div>  
             <div class="card-body" style="font-size: x-large;">
               <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Laptop Hard Disk</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">Before offering a solution, the data recovery specialists at a laptop repair shop examine the hard drive to identify the fault. They frequently spot logical issues, even those involving software.</p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
+             
             </div>
           </div>
          </a>
@@ -164,39 +162,39 @@ h5:hover {
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-md-4">
           <a href="leri.php">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-            <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/AMC-Image-2.jpg" alt="Sales" style="transition: transform 0.4s ease;"></div>
+          <div class="card bg-image hover-zoom abc border-box h-100" style="background-color: white;border-radius: 10px;font-size: x-large;">
+            <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://img.freepik.com/free-photo/professional-is-working-his-lab-repair-clean-computer-laptop-toolkit-box-with-specific-instruments-near_346278-1802.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="Sales" style="transition: transform 0.4s ease;"></div>
             <div class="card-body">
               <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Laptop Enclouser repair</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">The portability of a laptop is useful, but it causes wear. Have you noticed any scratches or signs of wear on your laptop or notebook? Our laptop repair service specialised in fixing the damage of lids, covers, and bottom cases. Renew your device using our support!
               </p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
+             
             </div>
           </div>
           </a>
         </div>
         <div class="col-md-4">
-          <a href="rentalsi.php">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-            <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" alt="Repair Services" style="transition: transform 0.4s ease;"></div>
+          <a href="lbai.php">
+          <div class="card bg-image hover-zoom abc border-box h-100" style="background-color: white;border-radius: 10px;font-size: x-large;">
+            <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://img.freepik.com/free-photo/desk-with-ssd-laptop-top-view_23-2149328276.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="Repair Services" style="transition: transform 0.4s ease;"></div>
             <div class="card-body">
               <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Laptop Battery & Adapters</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">Occasionally the power switch assembly on a laptop will break, which means the user cannot power up or use the laptop! If your have a broken laptop power button, Broken Laptop Repair can help.</p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
+             
             </div>
           </div>
           </a>
         </div>
         <div class="col-md-4">
           <a href="ledi.php">
-          <div class="card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
-           <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Facility-Management-Images-2.jpg" alt="Upgrades and Options" style="transition: transform 0.4s ease;"></div> 
+          <div class="card bg-image hover-zoom abc border-box h-100" style="background-color: white;border-radius: 10px;font-size: x-large;">
+           <div class="container"><img class="rounded bg-image hover-zoom img-fluid" src="https://img.freepik.com/free-photo/close-up-hands-plugging-ssd-device_23-2149328274.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="Upgrades and Options" style="transition: transform 0.4s ease;"></div> 
             <div class="card-body">
               <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Laptop External Drives</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">The CD/DVD drive on your laptop is necessary for loading programs, playing DVDs and CDs, copying files and more. If your CD/DVD drive is not reading, writing or performing the tasks it was meant to do we can replace the drive so you can use the laptop.
 
 </p>
-              <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
+             
             </div>
           </div>
           </a>

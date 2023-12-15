@@ -25,9 +25,148 @@
 
 
 <style>
-    html {
+    /* html {
   scroll-behavior: smooth;
 }
+
+ul {
+      /* position: relative;
+      width: 27em;
+      height: 2em;
+      margin: 100px auto;
+      padding: 0;
+      white-space: nowrap; */
+    /* }
+
+    ul li {
+      display: inline;
+      text-align: center;
+    } */
+/* ul li a { */
+  /* position: relative;
+  top: 0;
+  left: 0;
+  right: 25em;
+  bottom: 0;
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: .4em .2em;
+  color: #09C;
+  text-decoration: none;
+  text-shadow: 0 1px 0 white; */
+
+  /*transition*/
+  /* -webkit-transition: width .3s,left .3s;
+  -moz-transition: width .3s,left .3s;
+  -o-transition: width .3s,left .3s;
+  transition: width .3s,left .3s; */
+/* } */
+
+/* ul li:nth-child(1) a { width: 2em; }
+ul li:nth-child(2) a { width: 4em; }
+ul li:nth-child(3) a { width: 4em; }
+ul li:nth-child(4) a { width: 12em; }
+ul li:nth-child(5) a { width: 5em; } */
+/* 
+ul li:nth-child(1) a { width: 8em; }
+ul li:nth-child(2) a { width: 8em; }
+ul li:nth-child(3) a { width: 8em; }
+ul li:nth-child(4) a { width: 8em; }
+ul li:nth-child(5) a { width: 8em; }
+ul li:nth-child(6) a { width: 8em; }
+ul li:nth-child(7) a { width: 8em; }
+
+ul li:last-child a::after { */
+  /* content: "";
+  position: absolute;
+  right: inherit;
+  bottom: -3px;
+  width: inherit;
+  height: 3px;
+  background: #ccc;
+  pointer-events: none; */
+  /*transition*/
+  /* -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease; */
+/* } */
+
+/* ul li:nth-child(1) ~ li:last-child a {
+  right: 25em;
+  width: 2em;
+}
+
+ul li:nth-child(2):hover ~ li:last-child a {
+  right: 21em;
+  width: 4em;
+} */
+
+/* ul li:nth-child(1):hover ~ li:last-child a {
+  right: 17em;
+  width: 4em;
+}
+ul li:nth-child(2):hover ~ li:last-child a {
+  right: 17em;
+  width: 4em;
+}
+ul li:nth-child(3):hover ~ li:last-child a {
+  right: 17em;
+  width: 4em;
+}
+ul li:nth-child(4):hover ~ li:last-child a {
+  right: 17em;
+  width: 4em;
+}
+ul li:nth-child(5):hover ~ li:last-child a {
+  right: 17em;
+  width: 4em;
+}
+
+ul li:nth-child(6):hover ~ li:last-child a {
+  right: 17em;
+  width: 4em;
+}
+ul li:nth-child(7):hover ~ li:last-child a {
+  right: 17em;
+  width: 4em;
+} */
+
+/* ul li:nth-child(4):hover ~ li:last-child a {
+  right: 5em;
+  width: 12em;
+}
+
+ul li:nth-child(5):last-child:hover a {
+  right: 0;
+  width: 5em;
+} */
+
+/* ul li:hover ~ li:last-child a::after, */
+/* ul li:last-child:hover a::after { background: #c351fa; } */
+
+/* ul li:last-child a {
+  min-width: 5em;
+  max-width: 5em;
+} */
+
+ul li a:hover,
+ul li a:focus {
+  color: #c351fa;
+  background-color: rgba(255,255,255,.6);
+
+  /*transition*/
+  /* -webkit-transition: width .3s,right .3s,background-color .3s;
+  -moz-transition: width .3s,right .3s,background-color .3s;
+  -o-transition: width .3s,right .3s,background-color .3s;
+  transition: width .3s,right .3s,background-color .3s; */
+}
+
+/* ul li a:focus { border-bottom: 3px solid #c351fa; } */ */
+
+
+
 
 </style>
     </head>
@@ -35,7 +174,7 @@
     <div class="container">
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top box-shadow justify-content-center" style="height: 12vh;">
         <div class="container">
-            <a class="navbar-brand" style="color: white;" href="#">Navbar</a>
+            <a class="navbar-brand" style="color: white;" href="index2.php">Nishi Graphics</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

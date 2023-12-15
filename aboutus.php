@@ -241,17 +241,15 @@ body {
 
 
 </style>
-<div class="jumbotron jumbotron-fluid text-center w-100 justify-content-center" style="background:#333; height:60vh;">
-        <div class="container-fluid w-100 " style="height:60vh;">
-            <div class="intro container-fluid justify-content h-100 pb-2 pt-1 px-1">
-                <img src="" alt="" style="overflow: hidden; width:100%;object-fit: cover;height:100%;">
-              
-                <!-- Add more content as needed -->
-            </div>
-        </div>
-    </
 
+<div class="jumbotron jumbotron-fluid text-center text-light" style="height: 90vh; background-image: url('https://img.freepik.com/free-photo/interested-coworkers-with-new-project_23-2147656725.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais'); background-size: cover;-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(90%);">
+    <div class="container-fluid h-100 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-3 text-black text-center mb-4"> <span>ABOUT</span> <span>US</span></h1>
+        <!-- <h1 class="display-3 text-white mb-4"> <span>Repair</span> <span>Service</span> </h1> -->
+        
     </div>
+</div>
 
 
 
