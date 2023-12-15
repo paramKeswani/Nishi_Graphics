@@ -3,19 +3,145 @@
 <head>
 <title>Home</title>
 <link rel="stylesheet" href="index2.css">
+
+<style>
+   .jumbotron span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+ .jumbotron span:nth-child(1) {
+  animation: fade-in 3s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(2) {
+  animation: fade-in 3s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(3) {
+  animation: fade-in 3s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(4) {
+  animation: fade-in 3s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(5) {
+  animation: fade-in 3s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(6) {
+  animation: fade-in 3s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(7) {
+  animation: fade-in 3s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(8) {
+  animation: fade-in 3s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(9) {
+  animation: fade-in 3s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(10) {
+  animation: fade-in 3s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(11) {
+  animation: fade-in 3s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(12) {
+  animation: fade-in 3s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(13) {
+  animation: fade-in 3s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(14) {
+  animation: fade-in 3s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(15) {
+  animation: fade-in 3s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(16) {
+  animation: fade-in 3s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(17) {
+  animation: fade-in 3s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(18) {
+  animation: fade-in 3s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(19) {
+  animation: fade-in 3s 1.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+ .jumbotron span:nth-child(20) {
+  animation: fade-in 3s 2.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+ .jumbotron span:nth-child(21) {
+  animation: fade-in 3s 2.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+ .jumbotron span:nth-child(22) {
+  animation: fade-in 3s 2.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+ .jumbotron span:nth-child(23) {
+  animation: fade-in 3s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+ .jumbotron span:nth-child(24) {
+  animation: fade-in 3s 2.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+ .jumbotron span:nth-child(25) {
+  animation: fade-in 3s 2.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+ .jumbotron span:nth-child(26) {
+  animation: fade-in 3s 2.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+ .jumbotron span:nth-child(27) {
+  animation: fade-in 3s 2.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+ .jumbotron span:nth-child(28) {
+  animation: fade-in 3s 2.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif !important;
+   
+}
+
+</style>
 </head>
-
-<div class="jumbotron jumbotron-fluid text-center w-100 justify-content-center" style="background:#333; height:60vh;">
-        <div class="container-fluid w-100 " style="height:100vh;">
-            <div class="intro container-fluid justify-content h-100 pb-2 pt-1 px-1">
-                <img src="" alt="" style="overflow: hidden; width:100%;object-fit: cover;height:100%;">
-              
-                <!-- Add more content as needed -->
-            </div>
+<div class="jumbotron jumbotron-fluid text-center text-light" style="height: 100vh; background-image: url('https://img.freepik.com/free-photo/hand-soldering-cpu-motherboard-indoors-generated-by-ai_188544-24544.jpg?w=1060&t=st=1702550278~exp=1702550878~hmac=c0397886e666b8d0741c58933711cc058328e3cdb30cdfd4196a5d0c9b226df4'); background-size: cover;">
+    <div class="container-fluid h-100 d-flex flex-column justify-content-center">
+        <h1 class="display-3 text-white mb-4"> <span>Best</span> <span>Laptops</span> <span>&</span> <span>Computer</span></h1>
+        <h1 class="display-3 text-white mb-4"> <span>Repair</span> <span>Service</span> </h1>
+        <div class="container text-white text-center">
+            <p class="lead text-white text-center"> <span>Nishi</span> <span> Graphics </span> <span>is</span> <span> your</span> <span> premium</span> <span> destination</span> <span>for</span> <span> computer</span> <span> sales</span> <span>and</span> <span>repair</span> <span> services.</span> <span>We</span> <span>provide</span> <span> high-quality,</span> <span>cost-effective</span> <span>solutions,</span> <span>including</span> <span>expert</span> <span> network</span> <span> services.</span> </p>
+            <br>
+            <!-- <p class="lead text-white">We provide high-quality, cost-effective solutions, including expert network services.</p> -->
         </div>
-    </
-
     </div>
+</div>
+
+
+
 
 
 
@@ -24,24 +150,24 @@
       <div class="container-fluid pt-5" style="background-color: rgb(245, 243, 242);"></div>
       
       <div class="request_fourcards" style="background-color: rgb(245, 243, 242);">
-        <div class="card container  col-md-6 col-sm-6 content-justify-center" style="background-color: rgb(9, 9, 53);">
+        <div class="card container  col-md-6 col-sm-6 content-justify-center " style="background-color: rgb(9, 9, 53);">
           <div class="card-body " style="background-color: rgb(9, 9, 53);">
             <h2 class="card-title content-justify-center" style="color: white;">Request a Service Repair</h2>
             <h4 class="content-justify-center" style="color: white;"> We offer sales & Serices</h4>
             <br>
             <div class="container">
-              <form action="index2.html" class="container">
+              <form action="index2.html" class="container-fluid">
                
   
                   <div class="row justify-content-center">
                     <div class="col-md-4  mb-2">
-                      <input class="form-control"   input="text" required placeholder="Your Name">
+                      <input class="form-control w-100"   input="text" required placeholder="Your Name" >
                     </div>
                     <div class="col-md-4  mb-2 ">
                       <input type="tel" class="form-control" required placeholder="Phone Number">
                     </div>
                     <div class="col-md-4  mb-2">
-                      <input type="submit" class="form-control" class="btn btn-primary">
+                      <input type="submit" class="form-control" class="btn btn-primary" style="color:black;background-color:gold;">
   
                     </div>
   
@@ -88,7 +214,7 @@
                 <div class="container col-md-10 col-sm-10 pt-5 pb-3 g-4">
                   <div class="row row-cols-1 row-cols-sm-5 row-cols-md-10 g-4 mx-auto justify-content-center  " >
                     <div class="col-md-3 col-sm-10">
-                      <div class="card" style="border-radius: 10px;" >
+                      <div class="card d-flex flex-column" style="border-radius: 10px;" >
                       <img src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title"style="font-size: x-large;"><b>Skilled Technician</b></h5>
@@ -97,7 +223,7 @@
                       </div>
                     </div>
                     <div class="col-md-3 col-sm-10">
-                      <div class="card" style="border-radius: 10px;">
+                      <div class="card d-flex flex-column" style="border-radius: 10px;">
                         <img src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title"style="font-size: x-large;"><b>Customer Support</b></h5>
@@ -106,7 +232,7 @@
                       </div>
                     </div>
                     <div class="col-md-3 col-sm-10">
-                      <div class="card" style="border-radius: 10px;" >
+                      <div class="card d-flex flex-column" style="border-radius: 10px;" >
                         <img src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title"style="font-size: x-large;"><b>Quality Support</b></h5>
@@ -115,7 +241,7 @@
                       </div>
                     </div>
                     <div class="col-md-3 col-sm-10">
-                      <div class="card" style="border-radius: 10px;">
+                      <div class="card d-flex flex-column" style="border-radius: 10px;">
                         <img src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title"style="font-size: x-large;"><b>Pleasure Experience</b></h5>
@@ -137,7 +263,7 @@
 <div class="sixcards">
   <div class="container-fluid" style="background-color: rgb(9, 9, 53);">
     <div class="pt-5"></div>
-    <div class="container justify-content-center  pb-2">
+    <div class="container justify-content-center text-center pb-2">
       <h1 style="color: white;"><b>Our Services</b></h1>
     </div>
     <div class="container justify-content-center pb-3 mt-5" style="font-size: large;">
@@ -150,30 +276,30 @@
     <div class="container pt-5 pb-3">
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col-md-4">
-          <div class="card container bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;overflow: hidden;">
+          <div class="card container d-flex flex-column bg-image card-deck hover-zoom abc border-box" style="background-color: white;border-radius: 10px;overflow: hidden;">
             <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/10/Sales-Image-2.jpg" alt="Sales" style="transition: transform 0.4s ease;"></div>
             <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Sales</b></h5>
+              <h5 class="card-title text-center" style="text-align: left;font-size: x-large;"><b>Sales</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">We maintain the highest standards of credibility and efficiency with every computer repair service we provide in an effort to deliver perfection.</p>
               <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="container card bg-image hover-zoom abc border-box" style="background-color:white;border-radius: 10px;border-radius: 10px;">
+          <div class="container card d-flex flex-column bg-image card-deck hover-zoom abc border-box" style="background-color:white;border-radius: 10px;border-radius: 10px;">
            <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Repairing-Services-Image-2.jpg" alt="Repair Services" style="transition: transform 0.4s ease;"></div> 
             <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"> <b>Repair Services</b></h5>
+              <h5 class="card-title text-center" style="text-align: left;font-size: x-large;"> <b>Repair Services</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">We establish a set of processes outlining best practices, optimizing IT services in our computer service center to surpass business standards.</p>
               <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="container card bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
+          <div class="container card d-flex flex-column card-deck bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
           <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Upgrades_Options.jpg" alt="Upgrades and Options" style="transition: transform 0.4s ease;"></div>  
             <div class="card-body" style="font-size: x-large;">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Upgrades and Options</b></h5>
+              <h5 class="card-title text-center" style="text-align: left;font-size: x-large;"><b>Upgrades and Options</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">We provide a variety of hardware upgrades as well as repurchase alternatives as part of our computer repair services.</p>
               <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
             </div>
@@ -186,13 +312,13 @@
 
 
   <div class="b container-fluid" style="background-color:rgb(9, 9, 53);font-size: x-large;">
-    <div class="container pt-5 pb-3">
+    <div class="container pt-5 pb-3 card-deck">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-md-4">
-          <div class="card container bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
+          <div class="card card-deck d-flex flex-column container bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
             <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/AMC-Image-2.jpg" alt="Sales" style="transition: transform 0.4s ease;"></div>
             <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>AMC</b></h5>
+              <h5 class="card-title text-center" style="text-align: left;font-size: x-large;"><b>AMC</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">Our laptop repair shop strongly focuses on quality, dependability, and efficiency.
 
               </p>
@@ -201,20 +327,20 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card container bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
+          <div class="card container d-flex flex-column card-deck bg-image hover-zoom abc border-box" style="background-color: white;border-radius: 10px;font-size: x-large;">
             <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Rental-Image-3.jpg" alt="Repair Services" style="transition: transform 0.4s ease;"></div>
             <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Rentals</b></h5>
+              <h5 class="card-title text-center" style="text-align: left;font-size: x-large;"><b>Rentals</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">We provide excellent laptop cleaning services and are committed to providing the best computer rental services.</p>
               <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card bg-image hover-zoom abc border-box container" style="background-color: white;border-radius: 10px;font-size: x-large;">
+          <div class="card bg-image d-flex flex-column card-deck hover-zoom card-deck abc border-box container" style="background-color: white;border-radius: 10px;font-size: x-large;">
            <div class=""><img class="rounded bg-image hover-zoom img-fluid" src="https://wereachindia.com/wp-content/uploads/2023/09/Facility-Management-Images-2.jpg" alt="Upgrades and Options"style="transition: transform 0.4s ease;" ></div> 
             <div class="card-body">
-              <h5 class="card-title" style="text-align: left;font-size: x-large;"><b>Facility Management</b></h5>
+              <h5 class="card-title text-center" style="text-align: left;font-size: x-large;"><b>Facility Management</b></h5>
               <p class="card-text" style="text-align: left;font-size: x-large;">This special pack of services has been designed for our existing Facility Management Services.</p>
               <p style="text-align: left;font-size: x-large;"><a href="#">Read More</a></p>
             </div>
@@ -245,18 +371,19 @@
       
 
       
-  <div class="row"></div>
+ 
   <div class="man_thing" style="background-color: white;">
     <div class=" container w-100 pt-5 pb-3 g-4 content-justify-center" style="height: 55%;">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-md-6 col-sm-12 ">
-          <img style="height: 62vh; float: right;" src="https://img.freepik.com/free-photo/man-wearing-t-shirt-gesturing_23-2149393667.jpg?size=626&ext=jpg&ga=GA1.1.246565403.1702462119&semt=ais" alt="">
-        </div>
-        <div class="col-md-6 col-sm-12 justify-content-center ">
+      <div class="row  justify-content-center align-items-center">
+        <!-- <div class="col-sm-6  container "> -->
+        <img class="col-md-6 img-fluid" style="float: right;" src="https://img.freepik.com/free-photo/man-wearing-t-shirt-gesturing_23-2149393667.jpg?size=626&amp;ext=jpg&amp;ga=GA1.1.246565403.1702462119&amp;semt=ais" alt="">
+  
+      
+        <div class="col-md-6  justify-content-center ">
  
           <div class="container-fluid align-items-center my-1 col-12  py-3">
             <div class="container my-1 col-12  align-items-center  "><h3 style= "color: orange;font-size:70px;">Our Company</h3></div>
-                <div class="container my-1 col-12 align-items-center px-5  py-3 pb-5"><h2 style="font-size: xx-large;">Let's know More about Us</h2></div>
+                <div class=" my-1 col-12 align-items-center px-5  py-3 pb-5"><h2 style="font-size: xx-large;">Let's know More about Us</h2></div>
           
         
           
@@ -268,6 +395,7 @@
           <div class="container my-1 col-12   align-items-center"><button style="background-color: goldenrod; color: black;">Read More</button></div>
 
           </div>
+                  </div>
                   </div>
       </div>
     </div>
@@ -344,14 +472,14 @@
           </div>
           <div class="card col-md-3 col-sm-12 mb-4 mx-3 px-3 bg-image hover-zoom" style="border: 1px solid gold; border-radius: 10px;">
             <div class="card-body">
-              <h5 class="card-title text-center">Repair Services</h5>
+              <h5 class="card-title text-center" style="font-size: xx-large;"><b>Repair Services</b></h5>
               <p class="card-text text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet ad amet exercitationem quae quaerat repellendus corporis aspernatur quam ea commodi?</p>
               <p class="text-center">Robert Fox</p>
             </div>
           </div>
           <div class="card col-md-3 col-sm-12 mb-4 mx-3 px-3 bg-image hover-zoom" style="border: 1px solid gold; border-radius: 10px;">
             <div class="card-body">
-              <h5 class="card-title text-center">Upgrades and Options</h5>
+              <h5 class="card-title text-center" style="font-size: xx-large;"><b>Upgrades and Options</b></h5>
               <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laborum perferendis qui commodi a distinctio reiciendis fugiat aliquid ex praesentium?</p>
               <p class="text-center">Robert Fox</p>
             </div>
@@ -385,10 +513,12 @@
       </div>
 
   
-</div>
+
 
 <div class="pt-5"></div>
 <div class="pt-5"></div>
+
+
       <!-- slider code -->
 
 
@@ -418,13 +548,13 @@
 
 
 <footer class="text-center text-lg-start bg-body-tertiary text-muted " style="background-color: orange;">
-<!-- Section: Social media -->
+ Section: Social media -->
 <!-- Section: Social media -->
 
 <!-- Section: Links  -->
 <!-- <section class="" style="background-color: orange;">
 <div class="container text-center text-md-start " style="background-color: orange;">
-  <!-- Grid row -->
+   Grid row -->
   <!-- <div class="row mt-3" style="background-color: orange;"> -->
     <!-- Grid column -->
     <!-- <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="background-color: orange;"> -->
@@ -524,6 +654,7 @@
 <!-- </footer>
 
 </div>  -->
+
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js">
   $(document).ready(function(){
